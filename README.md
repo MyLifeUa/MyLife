@@ -109,11 +109,17 @@ The following systems, technologies and applications are interesting within the 
 - **MyFitnessPal:** [https://www.myfitnesspal.com/](https://www.myfitnesspal.com/)
 - **OpenPose:** [https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
+### 1.9. Communication Plan
+ - **Backlog Management** [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) 
+ - **Git Platform** [GitLab](https://gitlab.com/_mylife/mylife) 
+ - **Git Standards** 
+
+
 ### 1.9. Team Roles
 
 - **Product Owner:** [João Vasconcelos](https://jmnmv12.github.io/AboutMePT)
 - **DevOps Master:** [João Marques](https://jmarques.icu/)
-- **???:** [Tomás Costa](https://github.com/TomasCostaK)
+- **General Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Architect:** [Tiago Mendes](htytps://github.com/tiagocmendes)
 - **Project Manager:** [Vasco Ramos](https://vascoalramos.me)
 - **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)
