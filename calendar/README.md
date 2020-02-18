@@ -5,7 +5,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 1
 
-**Start:** 10-Feb-2020
+**Start:** 10-Feb-2020  
 **End:** 24-Feb-2020
 
 **Goal:** Milestone 1 (presentation of the lifecycle objectives and calender for the project)
@@ -17,7 +17,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 2
 
-**Start:** 24-Feb-2020
+**Start:** 24-Feb-2020  
 **End:** 09-Mar-2020
 
 **Goal:** Milestone 2 (presentation of the lifecycle architecture; the milestone is achieved when the architecture has been validated)
@@ -31,7 +31,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 3
 
-**Start:** 09-Mar-2020
+**Start:** 09-Mar-2020  
 **End:** 23-Mar-2020
 
 **Goal:** Approach Milestone 3 (prototype; mid-term presentation with supervisors; peer evaluation)
@@ -47,7 +47,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 4
 
-**Start:** 23-Mar-2020
+**Start:** 23-Mar-2020  
 **End:** 06-Apr-2020
 
 **Goal:** Approach Milestone 3 (prototype; mid-term presentation with supervisors; peer evaluation)
@@ -62,7 +62,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 5
 
-**Start:** 06-Apr-2020
+**Start:** 06-Apr-2020  
 **End:** 20-Apr-2020
 
 **Goal:** Milestone 3 (**prototype**; mid-term presentation with supervisors; peer evaluation)
@@ -79,7 +79,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 6
 
-**Start:** 20-Apr-2020
+**Start:** 20-Apr-2020  
 **End:** 04-May-2020
 
 **Goal:** Not Set. Consolidate.
@@ -90,7 +90,7 @@ We decided to approach the project on 2 week sprints each.
 
 ## Sprint 7
 
-**Start:** 04-May-2020
+**Start:** 04-May-2020  
 **End:** 18-May-2020
 
 **Goal:** Milestone 4 (project presentation; all functionality has been developed). Finalize.
