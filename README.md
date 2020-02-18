@@ -110,17 +110,15 @@ The following systems, technologies and applications are interesting within the 
 - **OpenPose:** [https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 ### 1.9. Communication Plan
- - **Backlog Management** For backlog management we are using [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) (An issue tracker and agile project management application) since it is a widely used tool and provides great project tracking for teams, It ranks number one for software project management tools with requirement tracking, task tracking and version tracking.
+ - **Backlog Management** For backlog management we are using [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) (an issue tracker and agile project management application) since it is a widely used tool and provides great project tracking for teams, it ranks number one for software project management tools with requirement tracking, task tracking and version tracking.
  
  - **Git Platform:** For the Git platform we chose [GitLab](https://gitlab.com/_mylife/mylife)  since it has easier CI/CD Integration and several others tools we find useful, as opposed to GitHub.
     - Git Standards:
         - For each new feature create a new branch.
         - For each fix create a new branch
         - Never merge directly, always make pull requests and identify at least one person to check (review) that pull request before merging the PR.  
-    **New feature branch**
-        - For each new feature create a branch following the standard: feature/<feature_name>.  
-    **New Issue branch**
-        - For each fix create a branch following the standard: hotfix/<fix-name>.
+        - **New feature branch:** or each new feature create a branch following the standard: `feature/<feature_name>`.  
+        - **New Issue branch:** For each fix create a branch following the standard: `hotfix/<fix-name`.
 
 
 ### 1.10. Team Roles
