@@ -1,42 +1,42 @@
 
-## Project Calendar
+# Project Calendar
 
 We decided to approach the project on 2 week sprints each.
 
-### Sprint 1
+## Sprint 1
 
 **Start:** 10-Feb-2020
 **End:** 24-Feb-2020
 
 **Goal:** Milestone 1 (presentation of the lifecycle objectives and calender for the project)
 
-#### Tasks
+### Tasks
 
 1. Prototype the **architecture**.
 2. Schedule project **tasks**.
 
-### Sprint 2
+## Sprint 2
 
 **Start:** 24-Feb-2020
 **End:** 09-Mar-2020
 
 **Goal:** Milestone 2 (presentation of the lifecycle architecture; the milestone is achieved when the architecture has been validated)
 
-#### Tasks
+### Tasks
 
 1. **Open Pose #1** [TM, JV, TC].
 2. **Computer Vision #1** [JV, VR, TC]
 3. **Service Broker #1** [TM, JM]
 4. **BackEnd #1** [VR, JV]
 
-### Sprint 3
+## Sprint 3
 
 **Start:** 09-Mar-2020
 **End:** 23-Mar-2020
 
 **Goal:** Approach Milestone 3 (prototype; mid-term presentation with supervisors; peer evaluation)
 
-#### Tasks
+## Tasks
 
 1. **Computer Vision #2** [TC]
 2. **Service Broker #2** [JM]
@@ -45,14 +45,14 @@ We decided to approach the project on 2 week sprints each.
 4. **BackEnd Operation Logic #1** [JV]
 5. **Frontend #1** [TC, TM]
 
-### Sprint 4
+## Sprint 4
 
 **Start:** 23-Mar-2020
 **End:** 06-Apr-2020
 
 **Goal:** Approach Milestone 3 (prototype; mid-term presentation with supervisors; peer evaluation)
 
-#### Tasks
+### Tasks
 
 1. **Open Pose #2** [TM, TC]
 2. **BackEnd Sensor Logic #2** [JM, VR]
@@ -60,14 +60,14 @@ We decided to approach the project on 2 week sprints each.
 4. **Frontend #2** [TC]
 5. **CI/CD Pipelines #1** [JM]
 
-### Sprint 5
+## Sprint 5
 
 **Start:** 06-Apr-2020
 **End:** 20-Apr-2020
 
 **Goal:** Milestone 3 (**prototype**; mid-term presentation with supervisors; peer evaluation)
 
-#### Tasks
+### Tasks
 
 1. **Open Pose #3** (not planned, finalize)
 2. **Computer Vision #3** (not planned, finalize)
@@ -77,24 +77,24 @@ We decided to approach the project on 2 week sprints each.
 6. **Frontend #3** (not planned, finalize)
 7. **CI/CD Pipelines #2** [JM]
 
-### Sprint 6
+## Sprint 6
 
 **Start:** 20-Apr-2020
 **End:** 04-May-2020
 
 **Goal:** Not Set. Consolidate.
 
-#### Tasks
+### Tasks
 
 (...)
 
-### Sprint 7
+## Sprint 7
 
 **Start:** 04-May-2020
 **End:** 18-May-2020
 
 **Goal:** Milestone 4 (project presentation; all functionality has been developed). Finalize.
 
-#### Tasks
+### Tasks
 
 (...)
