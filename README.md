@@ -126,7 +126,7 @@ The following systems, technologies and applications are interesting within the 
 
 - **Product Owner:** [João Vasconcelos](https://jmnmv12.github.io/AboutMePT)
 - **DevOps Master:** [João Marques](https://jmarques.icu/)
-- **General Developer:** [Tomás Costa](https://github.com/TomasCostaK)
+- **Lead Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Architect:** [Tiago Mendes](htytps://github.com/tiagocmendes)
 - **Project Manager:** [Vasco Ramos](https://vascoalramos.me)
 - **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)
