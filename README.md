@@ -1,7 +1,6 @@
 ![gitlab-banner](./assets/gitlab-banner.png)
 
-# My Life
-Personal Lifestyle Monitoring System
+# My Life - Personal Lifestyle Monitoring System
 
 ## 1. Inception Phase
 
