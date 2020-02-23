@@ -1,4 +1,7 @@
+![gitlab-banner](./assets/gitlab-banner.png)
+
 # My Life
+Personal Lifestyle Monitoring System
 
 ## 1. Inception Phase
 
@@ -9,7 +12,6 @@ The use of information and communication technologies in the health area is bein
 In the last decade, there has been a proliferation of mobile devices for monitoring vital signs and physical activity of citizens, thus enhancing the emergence of a new paradigm for monitoring clinical conditions and behavioural habits.
 
 On the other hand, it is known that patterns of food consumption have a major impact on health conditions and that more and more citizens are concerned with monitoring their diet, recording the calories and macronutrients they consume and also the calories they spend on physical exercise.
-
 
 
 ### 1.2. Problem
