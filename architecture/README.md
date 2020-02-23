@@ -62,15 +62,43 @@ Essentially, **Django REST Framework** is a powerful and flexible toolkit for bu
 
 Some advantages of Django:
 
-* Fast: This has been designed in a way to help the developers make an application as fast as possible.  
-* Fully Loaded: It works in a way that includes dozens of extras to help with user authentication, site maps, content administration, RSS feeds and much more such things.  
-* Secure: When you are doing it in Django, it is ensured that developers don’t commit any mistakes related to security. 
-* Scalable: To meet the heaviest traffic demand, the benefits of Django framework can be seen.  
-* Versatile: Content management, scientific computing platforms, and even big organizations, all these aspects are very efficiently managed by the use of Django.  
+* **Fast:** This has been designed in a way to help the developers make an application as fast as possible.  
+* **Fully Loaded:** It works in a way that includes dozens of extras to help with user authentication, site maps, content administration, RSS feeds and much more such things.  
+* **Secure:** When you are doing it in Django, it is ensured that developers don’t commit any mistakes related to security. 
+* **Scalable:** To meet the heaviest traffic demand, the benefits of Django framework can be seen.  
+* **Versatile:** Content management, scientific computing platforms, and even big organizations, all these aspects are very efficiently managed by the use of Django.  
 
 #### 2.3.4. Food recognition  
 
+For the **food recognition module**, we obviously are going to use **Django and Python** to build a **machine learning engine from scratch**. If we need to use some machine learning framework, maybe we will consider [TensorFlow](https://www.tensorflow.org/) or [PyTorch](https://pytorch.org/).
+
 #### 2.3.5. Cross-fit module  
 
+In order to recognize cross-fit exercises with the camera of a smartphone, we are going to use [OpenPose](https://www.learnopencv.com/tag/openpose/) and [OpenCV](https://opencv.org/). The module logic will also be developed with Django.
+
 ### 2.4. Long-term persistence  
+
+#### 2.4.1. Main relational database  
+
+For the main database of our system, we are going to use the [MySQL](https://www.mysql.com/) relational database management system. Some benefits of this RDMS are:
+
+* **Data Security**
+* **On-Demand Scalability**
+* **High Performance**
+* **Round-the-clock Uptime**
+* **Comprehensive Transactional Support**
+* **Complete Workflow Control**
+* **Reduced Total Cost of Ownership**
+* **The Flexibility of Open Source**
+
+#### 2.4.2. Food recognition and Cross-fit modules databases
+
+For the food recognition and cross-fit modules, we are going to use [MongoDB](https://www.mongodb.com/). 
+MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database makes you more productive.  
+With MongoDB, we can store documents with nutrional data about food and cross-fit exercises. We can also store images.  
+
+#### 2.4.3. Real-time data 
+
+In order to store real-time data and analytics about the **Fitbit band**, we are going to use the time series database [InfluxDB](https://www.influxdata.com/).  
+
 
