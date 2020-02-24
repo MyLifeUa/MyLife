@@ -119,7 +119,7 @@ The following systems, technologies and applications are interesting within the 
         - For each fix create a new branch
         - Never merge directly, always make pull requests and identify at least one person to check (review) that pull request before merging the PR.  
         - **New feature branch:** For each new feature create a branch following the standard: `feature/<feature_name>`.  
-        - **New Issue branch:** For each fix create a branch following the standard: `hotfix/<fix-name`.
+        - **New Issue branch:** For each fix create a branch following the standard: `hotfix/<fix-name`.  
 
  - **Team Communication:** For intra-team communication we are using Slack, since every member is familiarized with the tool and, we have integrated it with Gitlab for continous updates on our repository. We are also using a Matrix/Riot bridge (an Open-Source alternative) so we can access the premium features of Slack (not losing messages for example). 
 
@@ -130,4 +130,8 @@ The following systems, technologies and applications are interesting within the 
 - **Lead Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Architect:** [Tiago Mendes](htytps://github.com/tiagocmendes)
 - **Project Manager:** [Vasco Ramos](https://vascoalramos.me)
-- **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)
+- **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)  
+
+### 1.11. Project calendar  
+
+![project-calendar](./assets/project-calendar.png)
