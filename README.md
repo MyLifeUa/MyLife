@@ -137,7 +137,8 @@ The following systems, technologies and applications are interesting within the 
 
 ### 1.11. Project calendar  
 
-This is our project calendar, divided by milestones and their respective durations:
+This is our project calendar, divided by milestones and their respective durations. 
+For a more detailed explanation about this calendar, [click here](./calendar/README.md).
 
 ![project-calendar](./assets/project-calendar.png)  
 
