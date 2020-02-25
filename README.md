@@ -143,3 +143,22 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 ![project-calendar](./assets/project-calendar.png)  
 
 ## 2. Elaboration Phase
+
+### 2.1. Requirements gathering
+
+### 2.2. Functional requirements  
+
+### 2.3. Context and State of The Art (SOA)  
+
+### 2.4. Actors  
+
+### 2.5. Use Cases  
+
+### 2.6. Non-functional requirements
+
+### 2.7. System architecture deployment diagram  
+
+### 2.8. Domain model  
+
+### 2.9. User interaction  
+
