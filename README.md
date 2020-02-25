@@ -23,15 +23,16 @@ Gymnasiums and personal trainers try to instil a culture of exercise and a healt
 
 
 ### 1.3. Personas
-- **Medic**
 
-António Silva, 35 years old, born in Ovar,Aveiro, lives in Porto where he currently works as a medic in Hospital de Sao João.
+* **Doctor**
+
+António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João. 
 
 António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
 
 António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more atention to his patients.
 
-- **Patient**
+* **Patient**
 
 Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Enginner in Blip.
 
@@ -55,15 +56,15 @@ On the other hand, the application should allow simplified registration of basic
 
 **Module: OpenPose (Tiago Mendes, João Vasconcelos and Tomás Costa)**
 - **Task 1:** Investigate and learn how to use the software [Tiago Mendes, João Vasconcelos and Tomás Costa]
-- **Task 2:** Implement a simpler use case of OpenPose [Tiago Mendes,Tomás Costa]
+- **Task 2:** Implement a simpler use case of OpenPose [Tiago Mendes, Tomás Costa]
 
 **Module: Computer Vision (ML Food Recognition) (João Vasconcelos, Vasco Ramos and Tomás Costa)**
-- **Task 1:** Search and analyse for ml and pattern recognition tools [João Vasconcelos, Vasco Ramos and Tomás Costa]
-- **Task 2:** Search for a dataset of foods and respective properties (protein,calories,carbohydrates) [Tomás Costa]
+- **Task 1:** Search and analyse for machine learning and pattern recognition tools [João Vasconcelos, Vasco Ramos and Tomás Costa]
+- **Task 2:** Search for a dataset of foods and respective properties (protein, calories, carbohydrates) [Tomás Costa]
 
 **Module: Service Broker (To connect sensors to our system) (Tiago Mendes and João Marques)**
-- **Task 1:** Search viability of using Kafka vs RabbitMq [João Marques and Tiago Mendes]
-- **Task 2:** Implement the 1st version of communication [João Marques]
+- **Task 1:** Search viability of using Kafka vs RabbitMQ [João Marques and Tiago Mendes]
+- **Task 2:** Implement the first version of communication [João Marques]
 - **Task 3:** Investigate how to connect and retrieve information of FitBit Band [Tiago Mendes]
 
 **Module: Backend (João Vasconcelos, João Marques and Vasco Ramos)**
@@ -77,8 +78,9 @@ On the other hand, the application should allow simplified registration of basic
     - **Task 2:** Define the endpoints necessary to the api [João Vasconelos and Vasco Ramos]
     
 **Module: Frontend (Tiago Mendes and Tomás Costa)**
-- **Task 1:** Creation of static homepage with minimum information and details of the Project [Tomás Costa e Tiago Mendes]
-- **Task 2:** Creation of the login and registration interface (integrations with login apis) [Tomás Costa]
+- **Task 1:** Creation of static homepage with minimum information and details of the project [Tiago Mendes e Tomás Costa]
+- **Task 2:** Design and develop an interface for the mobile application [Tiago Mendes e Tomás Costa]  
+- **Task 3:** Design and develop an interface for the web applications [Tiago Mendes e Tomás Costa]
 
 **Module: CI/CD Pipeline (João Marques and Vasco Ramos)**
 - **Task 1:** CI Pipeline [Vasco Ramos and João Marques]
@@ -94,17 +96,18 @@ The user will have the opportunity to track calories, macronutrients and other m
 
 The application will be capable of recording workout plans and give you feedback about your performance and posture at the end of the training.
 
-Besides that our users will be connected to a medic that will have access to all the food and workout history of the patient so he can give more precise feedback.
+Besides that our users will be connected to a doctor that will have access to all the food and workout history of the patient so he can give more precise feedback.
 
 ### 1.7. Key system functionalities
 
 - Tracking of calories, macronutrients and other food metrics  through computer vision, enabled by a photo taken by the user.
-- Connection with fitness monitoring systems, like fitbit, for more accurate health metrics 
+- Connection with fitness monitoring systems for more accurate health metrics (like Fitbit Band)
 - Movement analysis (OpenPose) for controlling and correcting physical exercises done by the user.
 
 ### 1.8. Related work
 
 The following systems, technologies and applications are interesting within the context of our project:
+
 - **Freeletics:** [https://www.freeletics.com/pt/](https://www.freeletics.com/pt/)
 - **BiteAI:** [https://bite.ai/](https://bite.ai/)
 - **MyFitnessPal:** [https://www.myfitnesspal.com/](https://www.myfitnesspal.com/)
@@ -113,7 +116,7 @@ The following systems, technologies and applications are interesting within the 
 ### 1.9. Communication Plan
  - **Backlog Management:** For backlog management we are using [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) (an issue tracker and agile project management application) since it is a widely used tool and provides great project tracking for teams, it ranks number one for software project management tools with requirement tracking, task tracking and version tracking.
  
- - **Git Platform:** For the Git platform we chose [GitLab](https://gitlab.com/_mylife/mylife)  since it has easier CI/CD Integration and several others tools we find useful, as opposed to GitHub.
+ - **Git Platform:** For the Git platform we chose [GitLab](https://gitlab.com/_mylife/mylife) since it has easier CI/CD Integration and several others tools we find useful, as opposed to GitHub.
     - Git Standards:
         - For each new feature create a new branch.
         - For each fix create a new branch
@@ -127,11 +130,15 @@ The following systems, technologies and applications are interesting within the 
 
 - **Product Owner:** [João Vasconcelos](https://jmnmv12.github.io/AboutMePT)
 - **DevOps Master:** [João Marques](https://jmarques.icu/)
-- **Lead Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Architect:** [Tiago Mendes](htytps://github.com/tiagocmendes)
+- **Lead Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Project Manager:** [Vasco Ramos](https://vascoalramos.me)
 - **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)  
 
 ### 1.11. Project calendar  
 
-![project-calendar](./assets/project-calendar.png)
+This is our project calendar, divided by milestones and their respective durations:
+
+![project-calendar](./assets/project-calendar.png)  
+
+## 2. Elaboration Phase
