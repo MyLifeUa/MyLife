@@ -1,7 +1,7 @@
 
 # Project Calendar
 
-![project-calendar](../project-calendar.png)
+![project-calendar](../assets/project-calendar.png)
 
 We decided to approach the project on 2 week sprints each.
 
