@@ -160,11 +160,11 @@ Finally, the administrators of all the applications (in this case, our developme
 
 To sum up, the main actors of our system are described in the following list:  
 
-* Patient (regular person): User with access to both a mobile application and web application.
+* **Patient (regular person):** User with access to both a mobile application and web application.
 
-* Doctor: This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.  
+* **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.  
 
-* Administrators: This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
+* **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
 
 ### 2.5. Use Cases  
 
