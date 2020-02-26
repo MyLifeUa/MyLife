@@ -152,11 +152,25 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 ### 2.4. Actors  
 
+Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application. 
+
+Secondly, we will also have another web application to be used by doctors, in order to view and analize specific details about health habits of a patience before an appointment with him. Thereby, this appointment will be more productive and fast. If needed, we can also convert the web application into a desktop application for Windows, Mac or Linux.  
+
+Finally, the administrators of all the applications (in this case, our development team) will have a simple admin web dashboard with a variety of information and details about the two types of users described above. Although it is not strictly necessary have this third web application, it will be an helpful mean of manage our entire information system.  
+
+To sum up, the main actors of our system are described in the following list:  
+
+* Patient (regular person): User with access to both a mobile application and web application.
+
+* Doctor: This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.  
+
+* Administrators: This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
+
 ### 2.5. Use Cases  
 
 ### 2.6. Non-functional requirements
 
-### 2.7. System architecture deployment diagram  
+### 2.7. System architecture deployment diagram
 
 ### 2.8. Domain model  
 
