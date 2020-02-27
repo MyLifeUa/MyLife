@@ -156,6 +156,23 @@ On the other hand, as we aim to deliver an appllication for general use, we need
 
 ### 2.2. Functional requirements  
 
+1. **Business Rules**:   
+   1. Separation between **Regular Users**, **Doctors** and **Administrators** (see [Actors](#24-actors)), both in *buisiness logic* and in client applications.
+   2. Seamless and intuitive connection between all the buisiness roles. 
+2. **Administrative Functions**:
+   1. As explained in [Actors](#24-actors), we plan to have an **Administrator** role.
+   2. The **Doctor** also play an "administrative" role in the *business logic*.
+3. **Authentication and Authorization levels**:
+   1. Doctors and Administrators **must** be logged in.
+   2. Regular users **should** login to have the best experience (start with the assumption that everyone will log in).
+   3. Implement integration with external log in services  (Google OAuth). 
+4. **Reporting**:
+   1. The system should automatically report errors and crashes to the development team.
+   2. Users should be able to report problems themselves (possibly start with issues on GitHub/GitLab)
+5. **Historical  Data**:
+   1. (Possibly) Support integration with legacy services.
+6. **Regulatory Requirements**:
+
 ### 2.3. Context and State of The Art (SOA)  
 
 ### 2.4. Actors  
