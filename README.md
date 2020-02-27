@@ -144,7 +144,15 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 ## 2. Elaboration Phase
 
+Thinking about the requirements we are going to need to satisfy in order to achieve our project goals, we plan to address the following requirements:
+
 ### 2.1. Requirements gathering
+
+In order to fully address the problems in real life we need to solve, we should conduct several studies, analysis and interviews in order to get an idea of the actual usage our platform aims to have.
+
+Such interviews with both doctors and potential users would be of help.
+
+On the other hand, as we aim to deliver an appllication for general use, we need to think objectively about what we would want to do with an application like this, and address those themes/problems.
 
 ### 2.2. Functional requirements  
 
