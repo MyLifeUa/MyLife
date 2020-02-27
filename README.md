@@ -175,6 +175,8 @@ On the other hand, as we aim to deliver an appllication for general use, we need
 
 ### 2.3. Context and State of The Art (SOA)  
 
+*See [Actors](#24-actors)* 
+
 ### 2.4. Actors  
 
 Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application. 
