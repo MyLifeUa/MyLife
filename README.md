@@ -197,6 +197,12 @@ To sum up, the main actors of our system are described in the following list:
 
 ### 2.6. Non-functional requirements
 
+We want our system to assure performance, availability, recoverability, maintainability, security, data integrity , usability, or interoperability.
+
+Therefore, our goal is to make use of industry standards in **database systems**, **container orchestration**, **distribution**,  **replication**,  etc.
+
+The use of standard and known technologies will help us mantain the quality of our product.
+
 ### 2.7. System architecture deployment diagram
 
 ### 2.8. Domain model  
