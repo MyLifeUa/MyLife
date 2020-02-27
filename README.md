@@ -150,6 +150,16 @@ Thinking about the requirements we are going to need to satisfy in order to achi
 
 In order to fully address the problems in real life we need to solve, we should conduct several studies, analysis and interviews in order to get an idea of the actual usage our platform aims to have.
 
+With that objective in mind our process of requirements gathering can be divided in 3 distinct parts. 
+
+In the first part, we discussed different ideas through brainstorms to decide what will be the system boundaries, objectives and users. 
+
+The next part was a research about the current state of the art in the area of health,exercise and food tracking where we analyzed different papers, projects, studies and technologies.  This investigation improved a lot our requirements because it allowed to understand what has been done, what has worked in the area and what has not worked.
+
+The final part, and probably the most important one, were the talks with our advisor, Carlos Costa. His experience in information systems in the medicine area was essential do decide what we should include and not include in our final product. Interviews with both doctors and potential users would be of help, but because the available time for these phase was short they were not possible. We are going to present an overview of the discussed topics with our advisor:
+(ESCREVER POR TOPICOS)
+(REFERENCIAR O QUE JA NAO VAMOS FAZER COMO O MONITORING DE DIABETES)
+
 Such interviews with both doctors and potential users would be of help.
 
 On the other hand, as we aim to deliver an appllication for general use, we need to think objectively about what we would want to do with an application like this, and address those themes/problems.
