@@ -157,6 +157,13 @@ In the first part, we discussed different ideas through brainstorms to decide wh
 The next part was a research about the current state of the art in the area of health,exercise and food tracking where we analyzed different papers, projects, studies and technologies.  This investigation improved a lot our requirements because it allowed to understand what has been done, what has worked in the area and what has not worked.
 
 The final part, and probably the most important one, were the talks with our advisor, Carlos Costa. His experience in information systems in the medicine area was essential do decide what we should include and not include in our final product. Interviews with both doctors and potential users would be of help, but because the available time for these phase was short they were not possible. We are going to present an overview of the discussed topics with our advisor:
+
+- The recognition of food images can be a tricky part of our system, specially when we stack different ingredients and food is all scrambled. For that reason he told us to focus first on the recognition of food that is separated and that we can clearly differentiate from one another.
+
+- The recognition of physical exercises is a secondary part of our product and it's a very complex activity. For those reasons we were advised to first focus on identifying a single exercise and scale to other exercises when the first one is perfected.
+
+- Diabetes is one of the most common diseases nowadays, affecting   a big chunk of the world population. Because of that reason we had the idea of integrating diabetes monitoring systems in our product besides the fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the fitbit ....
+
 (ESCREVER POR TOPICOS)
 (REFERENCIAR O QUE JA NAO VAMOS FAZER COMO O MONITORING DE DIABETES)
 
