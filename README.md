@@ -205,6 +205,27 @@ To sum up, the main actors of our system are described in the following list:
 
 ### 2.5. Use Cases  
 
+The whole system can be described in the figure below (2.5.1), it has three main packages:  
+* **Mobile application** (Patient)
+* **Web application** (Doctor and patient)
+* **Web application for analytics** (Administrator)
+
+(Diagrama 2.5.1 aqui)
+
+#### **Web Application Patient** [Tom1k]
+ * Enumerar features
+ * Atribuir prioridades as features
+ * Diagrama com interaçoes com o sistema
+
+#### **Web Application Doctor** [Tom1k]
+
+
+#### **Web Application Admin** [Mendes]
+
+
+#### **Mobile Application** [Mendes]
+
+
 ### 2.6. Non-functional requirements
 
 We want our system to assure performance, availability, recoverability, maintainability, security, data integrity , usability, or interoperability.
