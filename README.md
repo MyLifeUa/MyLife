@@ -17,16 +17,16 @@
   * [1.11. Project calendar](#111-project-calendar)
 - [2. Elaboration Phase](#2-elaboration-phase)
   * [2.1. Requirements gathering](#21-requirements-gathering)
-  * [2.2. Functional requirements](#22-functional-requirements)
-  * [2.3. Context and State of The Art (SOA)](#23-context-and-state-of-the-art--soa-)
-    + [2.3.1. Context](#231-context)
-    + [2.3.2. State of The Art](#232-state-of-the-art)
-  * [2.4. Actors](#24-actors)
-  * [2.5. Use Cases](#25-use-cases)
-    + [2.5.1. Web Application Patient [Tom1k]](#251-web-application-patient--tom1k-)
-    + [2.5.2. Web Application Doctor [Tom1k]](#252-web-application-doctor--tom1k-)
-    + [2.5.3. Web Application Admin [Mendes]](#253-web-application-admin--mendes-)
-    + [2.5.4. Mobile Application [Mendes]](#254-mobile-application--mendes-)
+  * [2.2. Context and State of The Art (SOA)](#22-context-and-state-of-the-art--soa-)
+    + [2.2.1. Context](#221-context)
+    + [2.2.2. State of The Art](#222-state-of-the-art)
+  * [2.3. Actors](#23-actors)
+  * [2.4. Use Cases](#24-use-cases)
+    + [2.4.1. Web Application Patient [Tom1k]](#241-web-application-patient--tom1k-)
+    + [2.4.2. Web Application Doctor [Tom1k]](#242-web-application-doctor--tom1k-)
+    + [2.4.3. Web Application Admin [Mendes]](#243-web-application-admin--mendes-)
+    + [2.4.4. Mobile Application [Mendes]](#244-mobile-application--mendes-)
+  * [2.5. Functional requirements](#25-functional-requirements)
   * [2.6. Non-functional requirements](#26-non-functional-requirements)
   * [2.7. System architecture deployment diagram](#27-system-architecture-deployment-diagram)
   * [2.8. Domain model](#28-domain-model)
@@ -145,6 +145,7 @@ The following systems, technologies and applications are interesting within the 
 - **BiteAI:** [https://bite.ai/](https://bite.ai/)
 - **MyFitnessPal:** [https://www.myfitnesspal.com/](https://www.myfitnesspal.com/)
 - **OpenPose:** [https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- **Snap IT** [https://www.loseit.com/snapit/](https://www.loseit.com/snapit/)
 
 ### 1.9. Communication Plan
 
@@ -179,8 +180,6 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 ## 2. Elaboration Phase
 
-Thinking about the requirements we are going to need to satisfy in order to achieve our project goals, we plan to address the following requirements:
-
 ### 2.1. Requirements gathering
 
 In order to fully address the problems in real life we need to solve, we should conduct several studies, analysis and interviews in order to get an idea of the actual usage our platform aims to have.
@@ -206,7 +205,58 @@ Such interviews with both doctors and potential users would be of help.
 
 On the other hand, as we aim to deliver an appllication for general use, we need to think objectively about what we would want to do with an application like this, and address those themes/problems.
 
-### 2.2. Functional requirements
+### 2.2. Context and State of The Art (SOA)
+
+#### 2.2.1. Context
+In this subsection, it's presented a description on how the system is expected to be used by the different stackeholders.
+
+To begin with, an **Administrator** (someone in charge of the system administration) should register/unregister doctors in the system. This will be an occasional operation taking no longer than a couple minutes. It also has access to some charts and statistics regarding the system.
+
+Once a **Doctor** is registered in the system and understood it well, in the situation of an appointment with a **Patient**, that can benefit from the monotoring system, he presents it to the patient. If the patient is already enrolled in the system as a normal user, the doctor can add the patient (regular user) as one of its patients. If the patient is not yet enrolled and is willing to use the system, he can register himself on the web/mobile application (this can also be done by his doctor, if the patient prefers it).
+
+The **Patient / Regular User** can use the web application and/or mobile app to keep track of food consumptions and metrics regarding calories and, possibly, macronutrients. To do this, it needs to be previously logged in the system and take photos of the food it consumes. The user will also have the possibily to integrate this tracking with other devices like a smart band (e.g: [Fitbit Charge 3](https://www.fitbit.com/eu/charge3)).
+
+#### 2.2.2. State of The Art
+
+### 2.3. Actors
+
+Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application.
+
+Secondly, we will also have another web application to be used by doctors, in order to view and analize specific details about health habits of a patience before an appointment with him. Thereby, this appointment will be more productive and fast. If needed, we can also convert the web application into a desktop application for Windows, Mac or Linux.
+
+Finally, the administrators of all the applications (in this case, our development team) will have a simple admin web dashboard with a variety of information and details about the two types of users described above. Although it is not strictly necessary have this third web application, it will be an helpful mean of manage our entire information system.
+
+To sum up, the main actors of our system are described in the following list:
+
+- **Patient (regular person):** User with access to both a mobile application and web application.
+
+- **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.
+
+- **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
+
+### 2.4. Use Cases
+
+The whole system can be described in the figure below (2.5.1), it has three main packages:
+
+- **Mobile application** (Patient)
+- **Web application** (Doctor and patient)
+- **Web application for analytics** (Administrator)
+
+(Diagrama 2.5.1 aqui)
+
+#### 2.4.1. Web Application Patient [Tom1k]
+
+- Enumerar features
+- Atribuir prioridades as features
+- Diagrama com interaçoes com o sistema
+
+#### 2.4.2. Web Application Doctor [Tom1k]
+
+#### 2.4.3. Web Application Admin [Mendes]
+
+#### 2.4.4. Mobile Application [Mendes]
+
+### 2.5. Functional requirements
 
 1. **Business Rules**:
    1. Separation between **Regular Users**, **Doctors** and **Administrators** (see [Actors](#24-actors)), both in _buisiness logic_ and in client applications.
@@ -224,50 +274,6 @@ On the other hand, as we aim to deliver an appllication for general use, we need
 5. **Historical Data**:
    1. (Possibly) Support integration with legacy services.
 6. **Regulatory Requirements**:
-
-### 2.3. Context and State of The Art (SOA)
-
-#### 2.3.1. Context
-
-#### 2.3.2. State of The Art
-
-### 2.4. Actors
-
-Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application.
-
-Secondly, we will also have another web application to be used by doctors, in order to view and analize specific details about health habits of a patience before an appointment with him. Thereby, this appointment will be more productive and fast. If needed, we can also convert the web application into a desktop application for Windows, Mac or Linux.
-
-Finally, the administrators of all the applications (in this case, our development team) will have a simple admin web dashboard with a variety of information and details about the two types of users described above. Although it is not strictly necessary have this third web application, it will be an helpful mean of manage our entire information system.
-
-To sum up, the main actors of our system are described in the following list:
-
-- **Patient (regular person):** User with access to both a mobile application and web application.
-
-- **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.
-
-- **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
-
-### 2.5. Use Cases
-
-The whole system can be described in the figure below (2.5.1), it has three main packages:
-
-- **Mobile application** (Patient)
-- **Web application** (Doctor and patient)
-- **Web application for analytics** (Administrator)
-
-(Diagrama 2.5.1 aqui)
-
-#### 2.5.1. Web Application Patient [Tom1k]
-
-- Enumerar features
-- Atribuir prioridades as features
-- Diagrama com interaçoes com o sistema
-
-#### 2.5.2. Web Application Doctor [Tom1k]
-
-#### 2.5.3. Web Application Admin [Mendes]
-
-#### 2.5.4. Mobile Application [Mendes]
 
 ### 2.6. Non-functional requirements
 
