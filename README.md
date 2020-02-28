@@ -19,16 +19,18 @@
   * [2.1. Requirements gathering](#21-requirements-gathering)
   * [2.2. Functional requirements](#22-functional-requirements)
   * [2.3. Context and State of The Art (SOA)](#23-context-and-state-of-the-art--soa-)
+    + [2.3.1. Context](#231-context)
+    + [2.3.2. State of The Art](#232-state-of-the-art)
   * [2.4. Actors](#24-actors)
   * [2.5. Use Cases](#25-use-cases)
-    + [**Web Application Patient** [Tom1k]](#--web-application-patient----tom1k-)
-    + [**Web Application Doctor** [Tom1k]](#--web-application-doctor----tom1k-)
-    + [**Web Application Admin** [Mendes]](#--web-application-admin----mendes-)
-    + [**Mobile Application** [Mendes]](#--mobile-application----mendes-)
+    + [2.5.1. Web Application Patient [Tom1k]](#251-web-application-patient--tom1k-)
+    + [2.5.2. Web Application Doctor [Tom1k]](#252-web-application-doctor--tom1k-)
+    + [2.5.3. Web Application Admin [Mendes]](#253-web-application-admin--mendes-)
+    + [2.5.4. Mobile Application [Mendes]](#254-mobile-application--mendes-)
   * [2.6. Non-functional requirements](#26-non-functional-requirements)
   * [2.7. System architecture deployment diagram](#27-system-architecture-deployment-diagram)
   * [2.8. Domain model](#28-domain-model)
-  * [2.9. User interaction](#29-user-interaction)
+  * [2.9. User Interaction](#29-user-interaction)
 
 ## 1. Inception Phase
 
@@ -52,21 +54,21 @@ Gymnasiums and personal trainers try to instil a culture of exercise and a healt
 
 - **Doctor**
 
-António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João.
+   António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João.
 
-António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
+   António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
 
-António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more atention to his patients.
+   António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more atention to his patients.
 
 - **Patient**
 
-Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Enginner in Blip.
+   Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Enginner in Blip.
 
-Francisca cares about her health, so she tries to have a healthy life, keeping track of her daily food intake and a balanced weekly workout routine. She also likes technology and uses a bunch of high-end gadgets to help her track health metrics like: heart rate and steps taken in a day.
+   Francisca cares about her health, so she tries to have a healthy life, keeping track of her daily food intake and a balanced weekly workout routine. She also likes technology and uses a bunch of high-end gadgets to help her track health metrics like: heart rate and steps taken in a day.
 
-Unfortunately, giving her tight schedule related to work, she doesn't always have the time to track her daily food consuptions or track if she is complying to her workout plan and doing the exercises in a correct way.
+   Unfortunately, giving her tight schedule related to work, she doesn't always have the time to track her daily food consuptions or track if she is complying to her workout plan and doing the exercises in a correct way.
 
-Therefore, Francisca feels that with an easy-to-use system, that enables her to track her food consumption in an easy and fast way and also helps her make sure she is complying with her workout schedule and executing the exercises in the correct way, she could have a healthier lifestyle and follow her workout plan in a more rigorous way.
+   Therefore, Francisca feels that with an easy-to-use system, that enables her to track her food consumption in an easy and fast way and also helps her make sure she is complying with her workout schedule and executing the exercises in the correct way, she could have a healthier lifestyle and follow her workout plan in a more rigorous way.
 
 ### 1.4. Goal
 
@@ -225,7 +227,9 @@ On the other hand, as we aim to deliver an appllication for general use, we need
 
 ### 2.3. Context and State of The Art (SOA)
 
-_See [Actors](#24-actors)_
+#### 2.3.1. Context
+
+#### 2.3.2. State of The Art
 
 ### 2.4. Actors
 
@@ -253,17 +257,17 @@ The whole system can be described in the figure below (2.5.1), it has three main
 
 (Diagrama 2.5.1 aqui)
 
-#### **Web Application Patient** [Tom1k]
+#### 2.5.1. Web Application Patient [Tom1k]
 
 - Enumerar features
 - Atribuir prioridades as features
 - Diagrama com interaçoes com o sistema
 
-#### **Web Application Doctor** [Tom1k]
+#### 2.5.2. Web Application Doctor [Tom1k]
 
-#### **Web Application Admin** [Mendes]
+#### 2.5.3. Web Application Admin [Mendes]
 
-#### **Mobile Application** [Mendes]
+#### 2.5.4. Mobile Application [Mendes]
 
 ### 2.6. Non-functional requirements
 
@@ -277,4 +281,4 @@ The use of standard and known technologies will help us mantain the quality of o
 
 ### 2.8. Domain model
 
-### 2.9. User interaction
+### 2.9. User Interaction
