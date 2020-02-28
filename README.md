@@ -2,6 +2,34 @@
 
 # My Life - Personal Lifestyle Monitoring System
 
+## Table of Contents
+- [1. Inception Phase](#1-inception-phase)
+  * [1.1. Context](#11-context)
+  * [1.2. Problem](#12-problem)
+  * [1.3. Personas](#13-personas)
+  * [1.4. Goal](#14-goal)
+  * [1.5. Task List](#15-task-list)
+  * [1.6. Expected Results](#16-expected-results)
+  * [1.7. Key system functionalities](#17-key-system-functionalities)
+  * [1.8. Related work](#18-related-work)
+  * [1.9. Communication Plan](#19-communication-plan)
+  * [1.10. Team Roles](#110-team-roles)
+  * [1.11. Project calendar](#111-project-calendar)
+- [2. Elaboration Phase](#2-elaboration-phase)
+  * [2.1. Requirements gathering](#21-requirements-gathering)
+  * [2.2. Functional requirements](#22-functional-requirements)
+  * [2.3. Context and State of The Art (SOA)](#23-context-and-state-of-the-art--soa-)
+  * [2.4. Actors](#24-actors)
+  * [2.5. Use Cases](#25-use-cases)
+    + [**Web Application Patient** [Tom1k]](#--web-application-patient----tom1k-)
+    + [**Web Application Doctor** [Tom1k]](#--web-application-doctor----tom1k-)
+    + [**Web Application Admin** [Mendes]](#--web-application-admin----mendes-)
+    + [**Mobile Application** [Mendes]](#--mobile-application----mendes-)
+  * [2.6. Non-functional requirements](#26-non-functional-requirements)
+  * [2.7. System architecture deployment diagram](#27-system-architecture-deployment-diagram)
+  * [2.8. Domain model](#28-domain-model)
+  * [2.9. User interaction](#29-user-interaction)
+
 ## 1. Inception Phase
 
 ### 1.1. Context
@@ -12,7 +40,6 @@ In the last decade, there has been a proliferation of mobile devices for monitor
 
 On the other hand, it is known that patterns of food consumption have a major impact on health conditions and that more and more citizens are concerned with monitoring their diet, recording the calories and macronutrients they consume and also the calories they spend on physical exercise.
 
-
 ### 1.2. Problem
 
 Due to the growing demand of the labour market, the day-to-day tasks that increasingly fill citizens' schedules and other activities that make up daily life, people have less and less time to monitor their health and perform activities to promote a good lifestyle.
@@ -21,18 +48,17 @@ Various technologies on the market try to assist people in this area by providin
 
 Gymnasiums and personal trainers try to instil a culture of exercise and a healthy lifestyle in citizens, but the prices and the high number of people who frequent this space end up discouraging many citizens from practising a healthy lifestyle.
 
-
 ### 1.3. Personas
 
-* **Doctor**
+- **Doctor**
 
-António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João. 
+António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João.
 
 António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
 
 António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more atention to his patients.
 
-* **Patient**
+- **Patient**
 
 Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Enginner in Blip.
 
@@ -55,14 +81,17 @@ On the other hand, the application should allow simplified registration of basic
 ### 1.5. Task List
 
 **Module: OpenPose (Tiago Mendes, João Vasconcelos and Tomás Costa)**
+
 - **Task 1:** Investigate and learn how to use the software [Tiago Mendes, João Vasconcelos and Tomás Costa]
 - **Task 2:** Implement a simpler use case of OpenPose [Tiago Mendes, Tomás Costa]
 
 **Module: Computer Vision (ML Food Recognition) (João Vasconcelos, Vasco Ramos and Tomás Costa)**
+
 - **Task 1:** Search and analyse for machine learning and pattern recognition tools [João Vasconcelos, Vasco Ramos and Tomás Costa]
 - **Task 2:** Search for a dataset of foods and respective properties (protein, calories, carbohydrates) [Tomás Costa]
 
 **Module: Service Broker (To connect sensors to our system) (Tiago Mendes and João Marques)**
+
 - **Task 1:** Search viability of using Kafka vs RabbitMQ [João Marques and Tiago Mendes]
 - **Task 2:** Implement the first version of communication [João Marques]
 - **Task 3:** Investigate how to connect and retrieve information of FitBit Band [Tiago Mendes]
@@ -71,18 +100,20 @@ On the other hand, the application should allow simplified registration of basic
 
 - **Task 1:** Define what database to use for each cenario [Vasco Ramos and João Vasconcelos]
 - **Sub-module: Sensor logic**
-    - **Task 1:** Create the database schema [João Marques and Vasco Ramos]
-    - **Task 2:** Define the endpoints necessary to the api [João Marques and Vasco Ramos]
+  - **Task 1:** Create the database schema [João Marques and Vasco Ramos]
+  - **Task 2:** Define the endpoints necessary to the api [João Marques and Vasco Ramos]
 - **Sub-module: Operation logic**
-    - **Task 1:** Create the database schema [João Vasconcelos]
-    - **Task 2:** Define the endpoints necessary to the api [João Vasconelos and Vasco Ramos]
-    
+  - **Task 1:** Create the database schema [João Vasconcelos]
+  - **Task 2:** Define the endpoints necessary to the api [João Vasconelos and Vasco Ramos]
+
 **Module: Frontend (Tiago Mendes and Tomás Costa)**
+
 - **Task 1:** Creation of static homepage with minimum information and details of the project [Tiago Mendes e Tomás Costa]
-- **Task 2:** Design and develop an interface for the mobile application [Tiago Mendes e Tomás Costa]  
+- **Task 2:** Design and develop an interface for the mobile application [Tiago Mendes e Tomás Costa]
 - **Task 3:** Design and develop an interface for the web applications [Tiago Mendes e Tomás Costa]
 
 **Module: CI/CD Pipeline (João Marques and Vasco Ramos)**
+
 - **Task 1:** CI Pipeline [Vasco Ramos and João Marques]
 - **Task 2:** CD Pipeline [João Marques]
 
@@ -92,7 +123,7 @@ At the end of this project, we expect to have a fully functional application cap
 
 This product will be capable of connecting with fitness trackers (Fitbit Charge 3) and other instruments that will measure data such as the number of steps walked, heart rate, quality of sleep, steps climbed, and other personal metrics involved in fitness.
 
-The user will have the opportunity to track calories, macronutrients and other metrics. By taking a picture of the food, the app will automatically log the calories, proteins, carbohydrates and other metrics for future review by the user. 
+The user will have the opportunity to track calories, macronutrients and other metrics. By taking a picture of the food, the app will automatically log the calories, proteins, carbohydrates and other metrics for future review by the user.
 
 The application will be capable of recording workout plans and give you feedback about your performance and posture at the end of the training.
 
@@ -100,7 +131,7 @@ Besides that our users will be connected to a doctor that will have access to al
 
 ### 1.7. Key system functionalities
 
-- Tracking of calories, macronutrients and other food metrics  through computer vision, enabled by a photo taken by the user.
+- Tracking of calories, macronutrients and other food metrics through computer vision, enabled by a photo taken by the user.
 - Connection with fitness monitoring systems for more accurate health metrics (like Fitbit Band)
 - Movement analysis (OpenPose) for controlling and correcting physical exercises done by the user.
 
@@ -114,17 +145,19 @@ The following systems, technologies and applications are interesting within the 
 - **OpenPose:** [https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 ### 1.9. Communication Plan
- - **Backlog Management:** For backlog management we are using [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) (an issue tracker and agile project management application) since it is a widely used tool and provides great project tracking for teams, it ranks number one for software project management tools with requirement tracking, task tracking and version tracking.
- 
- - **Git Platform:** For the Git platform we chose [GitLab](https://gitlab.com/_mylife/mylife) since it has easier CI/CD Integration and several others tools we find useful, as opposed to GitHub.
-    - Git Standards:
-        - For each new feature create a new branch.
-        - For each fix create a new branch
-        - Never merge directly, always make pull requests and identify at least one person to check (review) that pull request before merging the PR.  
-        - **New feature branch:** For each new feature create a branch following the standard: `feature/<feature_name>`.  
-        - **New Issue branch:** For each fix create a branch following the standard: `hotfix/<fix-name`.  
 
- - **Team Communication:** For intra-team communication we are using Slack, since every member is familiarized with the tool and, we have integrated it with Gitlab for continous updates on our repository. We are also using a Matrix/Riot bridge (an Open-Source alternative) so we can access the premium features of Slack (not losing messages for example). 
+- **Backlog Management:** For backlog management we are using [Jira](https://my-life.atlassian.net/secure/RapidBoard.jspa?rapidView=1) (an issue tracker and agile project management application) since it is a widely used tool and provides great project tracking for teams, it ranks number one for software project management tools with requirement tracking, task tracking and version tracking.
+
+- **Git Platform:** For the Git platform we chose [GitLab](https://gitlab.com/_mylife/mylife) since it has easier CI/CD Integration and several others tools we find useful, as opposed to GitHub.
+
+  - Git Standards:
+    - For each new feature create a new branch.
+    - For each fix create a new branch
+    - Never merge directly, always make pull requests and identify at least one person to check (review) that pull request before merging the PR.
+    - **New feature branch:** For each new feature create a branch following the standard: `feature/<feature_name>`.
+    - **New Issue branch:** For each fix create a branch following the standard: `hotfix/<fix-name`.
+
+- **Team Communication:** For intra-team communication we are using Slack, since every member is familiarized with the tool and, we have integrated it with Gitlab for continous updates on our repository. We are also using a Matrix/Riot bridge (an Open-Source alternative) so we can access the premium features of Slack (not losing messages for example).
 
 ### 1.10. Team Roles
 
@@ -133,14 +166,14 @@ The following systems, technologies and applications are interesting within the 
 - **Architect:** [Tiago Mendes](htytps://github.com/tiagocmendes)
 - **Lead Developer:** [Tomás Costa](https://github.com/TomasCostaK)
 - **Project Manager:** [Vasco Ramos](https://vascoalramos.me)
-- **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)  
+- **Advisor:** [Carlos Costa](http://sweet.ua.pt/carlos.costa/)
 
-### 1.11. Project calendar  
+### 1.11. Project calendar
 
-This is our project calendar, divided by milestones and their respective durations. 
+This is our project calendar, divided by milestones and their respective durations.
 For a more detailed explanation about this calendar, [click here](./calendar/README.md).
 
-![project-calendar](./assets/project-calendar.png)  
+![project-calendar](./assets/project-calendar.png)
 
 ## 2. Elaboration Phase
 
@@ -150,11 +183,11 @@ Thinking about the requirements we are going to need to satisfy in order to achi
 
 In order to fully address the problems in real life we need to solve, we should conduct several studies, analysis and interviews in order to get an idea of the actual usage our platform aims to have.
 
-With that objective in mind our process of requirements gathering can be divided in 3 distinct parts. 
+With that objective in mind our process of requirements gathering can be divided in 3 distinct parts.
 
-In the first part, we discussed different ideas through brainstorms to decide what will be the system boundaries, objectives and users. 
+In the first part, we discussed different ideas through brainstorms to decide what will be the system boundaries, objectives and users.
 
-The next part was a research about the current state of the art in the area of health,exercise and food tracking where we analyzed different papers, projects, studies and technologies.  This investigation improved a lot our requirements because it allowed to understand what has been done, what has worked in the area and what has not worked.
+The next part was a research about the current state of the art in the area of health,exercise and food tracking where we analyzed different papers, projects, studies and technologies. This investigation improved a lot our requirements because it allowed to understand what has been done, what has worked in the area and what has not worked.
 
 The final part, and probably the most important one, were the talks with our advisor, Carlos Costa. His experience in information systems in the medicine area was essential do decide what we should include and not include in our final product. Interviews with both doctors and potential users would be of help, but because the available time for these phase was short they were not possible. We are going to present an overview of the discussed topics with our advisor:
 
@@ -162,7 +195,7 @@ The final part, and probably the most important one, were the talks with our adv
 
 - The recognition of physical exercises is a secondary part of our product and it's a very complex activity. For those reasons we were advised to first focus on identifying a single exercise and scale to other exercises when the first one is perfected.
 
-- Diabetes is one of the most common diseases nowadays, affecting   a big chunk of the world population. Because of that reason we had the idea of integrating diabetes monitoring systems in our product besides the fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the fitbit ....
+- Diabetes is one of the most common diseases nowadays, affecting a big chunk of the world population. Because of that reason we had the idea of integrating diabetes monitoring systems in our product besides the fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the fitbit ....
 
 (ESCREVER POR TOPICOS)
 (REFERENCIAR O QUE JA NAO VAMOS FAZER COMO O MONITORING DE DIABETES)
@@ -171,79 +204,77 @@ Such interviews with both doctors and potential users would be of help.
 
 On the other hand, as we aim to deliver an appllication for general use, we need to think objectively about what we would want to do with an application like this, and address those themes/problems.
 
-### 2.2. Functional requirements  
+### 2.2. Functional requirements
 
-1. **Business Rules**:   
-   1. Separation between **Regular Users**, **Doctors** and **Administrators** (see [Actors](#24-actors)), both in *buisiness logic* and in client applications.
-   2. Seamless and intuitive connection between all the buisiness roles. 
+1. **Business Rules**:
+   1. Separation between **Regular Users**, **Doctors** and **Administrators** (see [Actors](#24-actors)), both in _buisiness logic_ and in client applications.
+   2. Seamless and intuitive connection between all the buisiness roles.
 2. **Administrative Functions**:
    1. As explained in [Actors](#24-actors), we plan to have an **Administrator** role.
-   2. The **Doctor** also play an "administrative" role in the *business logic*.
+   2. The **Doctor** also play an "administrative" role in the _business logic_.
 3. **Authentication and Authorization levels**:
    1. Doctors and Administrators **must** be logged in.
    2. Regular users **should** login to have the best experience (start with the assumption that everyone will log in).
-   3. Implement integration with external log in services  (Google OAuth). 
+   3. Implement integration with external log in services (Google OAuth).
 4. **Reporting**:
    1. The system should automatically report errors and crashes to the development team.
    2. Users should be able to report problems themselves (possibly start with issues on GitHub/GitLab)
-5. **Historical  Data**:
+5. **Historical Data**:
    1. (Possibly) Support integration with legacy services.
 6. **Regulatory Requirements**:
 
-### 2.3. Context and State of The Art (SOA)  
+### 2.3. Context and State of The Art (SOA)
 
-*See [Actors](#24-actors)* 
+_See [Actors](#24-actors)_
 
-### 2.4. Actors  
+### 2.4. Actors
 
-Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application. 
+Firstly, the target user for the mobile application is any regular person who is interested in monitoring their lifestyle and knows how to interact with a smartphone, even though it is recommended that this person is at least a teenager. This type of users can also access the web application, that is similar compared to the mobile application.
 
-Secondly, we will also have another web application to be used by doctors, in order to view and analize specific details about health habits of a patience before an appointment with him. Thereby, this appointment will be more productive and fast. If needed, we can also convert the web application into a desktop application for Windows, Mac or Linux.  
+Secondly, we will also have another web application to be used by doctors, in order to view and analize specific details about health habits of a patience before an appointment with him. Thereby, this appointment will be more productive and fast. If needed, we can also convert the web application into a desktop application for Windows, Mac or Linux.
 
-Finally, the administrators of all the applications (in this case, our development team) will have a simple admin web dashboard with a variety of information and details about the two types of users described above. Although it is not strictly necessary have this third web application, it will be an helpful mean of manage our entire information system.  
+Finally, the administrators of all the applications (in this case, our development team) will have a simple admin web dashboard with a variety of information and details about the two types of users described above. Although it is not strictly necessary have this third web application, it will be an helpful mean of manage our entire information system.
 
-To sum up, the main actors of our system are described in the following list:  
+To sum up, the main actors of our system are described in the following list:
 
-* **Patient (regular person):** User with access to both a mobile application and web application.
+- **Patient (regular person):** User with access to both a mobile application and web application.
 
-* **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.  
+- **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.
 
-* **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
+- **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
 
-### 2.5. Use Cases  
+### 2.5. Use Cases
 
-The whole system can be described in the figure below (2.5.1), it has three main packages:  
-* **Mobile application** (Patient)
-* **Web application** (Doctor and patient)
-* **Web application for analytics** (Administrator)
+The whole system can be described in the figure below (2.5.1), it has three main packages:
+
+- **Mobile application** (Patient)
+- **Web application** (Doctor and patient)
+- **Web application for analytics** (Administrator)
 
 (Diagrama 2.5.1 aqui)
 
 #### **Web Application Patient** [Tom1k]
- * Enumerar features
- * Atribuir prioridades as features
- * Diagrama com interaçoes com o sistema
+
+- Enumerar features
+- Atribuir prioridades as features
+- Diagrama com interaçoes com o sistema
 
 #### **Web Application Doctor** [Tom1k]
 
-
 #### **Web Application Admin** [Mendes]
 
-
 #### **Mobile Application** [Mendes]
-
 
 ### 2.6. Non-functional requirements
 
 We want our system to assure performance, availability, recoverability, maintainability, security, data integrity , usability, or interoperability.
 
-Therefore, our goal is to make use of industry standards in **database systems**, **container orchestration**, **distribution**,  **replication**,  etc.
+Therefore, our goal is to make use of industry standards in **database systems**, **container orchestration**, **distribution**, **replication**, etc.
 
 The use of standard and known technologies will help us mantain the quality of our product.
 
 ### 2.7. System architecture deployment diagram
 
-### 2.8. Domain model  
+### 2.8. Domain model
 
-### 2.9. User interaction  
-
+### 2.9. User interaction
