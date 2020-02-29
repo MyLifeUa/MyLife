@@ -87,10 +87,11 @@ On the other hand, the application should allow simplified registration of basic
 - **Task 1:** Investigate and learn how to use the software [Tiago Mendes, João Vasconcelos and Tomás Costa]
 - **Task 2:** Implement a simpler use case of OpenPose [Tiago Mendes, Tomás Costa]
 
-**Module: Computer Vision (ML Food Recognition) (João Vasconcelos, Vasco Ramos and Tomás Costa)**
+**Module: Computer Vision (ML Food Recognition) (João Vasconcelos, Vasco Ramos, Tomás Costa and João Marques)**
 
 - **Task 1:** Search and analyse for machine learning and pattern recognition tools [João Vasconcelos, Vasco Ramos and Tomás Costa]
 - **Task 2:** Search for a dataset of foods and respective properties (protein, calories, carbohydrates) [Tomás Costa]
+- **Task 3:** Implement a first (simple) version of the food recognition algorithm [Vasco Ramos and João Marques]
 
 **Module: Service Broker (To connect sensors to our system) (Tiago Mendes and João Marques)**
 
@@ -218,7 +219,18 @@ The **Patient / Regular User** can use the web application and/or mobile app to 
 
 It is also worth noting that the Regular User **can** use our system without requiring any association with a doctor.
 
-#### 2.2.2. State of The Art
+#### 2.2.2. State of The Art and Related Work
+
+##### Food Recognition and Classification
+The [work](https://ieeexplore.ieee.org/document/8228338) of David J. Attokaren *et. al* presents an implementation of Convolutional Neural Networks to execute Food Classification from images. The Dataset used was Food-101 which contains 101 000 images and 101 categories. It was also used a model from Google: **Google Inception V3**. They used that Food-101 dataset to train the model and the ImageNet one to test the system. Bellow, we have a table comparing results to their approach to other already known models.
+
+![Table of Results](./assets/image-recogn-results.png)
+
+From what we found there are already two successful products ([Bite AI](https://bite.ai/) and [Snap IT](https://www.loseit.com/snapit/)) that undertake a similar purpose in the form of a Rest API. These two services are a reference point to what we want to do.
+
+##### Workout Recognition and Correction
+
+
 
 ### 2.3. Actors
 
