@@ -214,7 +214,9 @@ To begin with, an **Administrator** (someone in charge of the system administrat
 
 Once a **Doctor** is registered in the system and understood it well, in the situation of an appointment with a **Patient**, that can benefit from the monitoring system, he presents it to the patient. If the patient is already enrolled in the system as a normal user, the doctor can add the patient (regular user) as one of its patients. If the patient is not yet enrolled and is willing to use the system, he can register himself on the web/mobile application (this can also be done by his doctor, if the patient prefers it).
 
-The **Patient / Regular User** can use the web application and/or mobile app to keep track of food consumptions and metrics regarding calories and, possibly, macronutrients. To do this, it needs to be previously logged in the system and take photos of the food it consumes. The user will also have the possibility to integrate this tracking with other devices like a smart band (e.g: [Fitbit Charge 3](https://www.fitbit.com/eu/charge3)). At last, if the user wants to see some metrics about his health and food/liquids consumption, he can use the statistics page to access this information.
+The **Patient / Regular User** can use the web application and/or mobile app to keep track of food consumptions and metrics regarding calories and, possibly, macronutrients. To do this, it needs to be previously logged in the system and take photos of the food it consumes. The user will also have the possibility to integrate this tracking with other devices like a smart band (e.g: [Fitbit Charge 3](https://www.fitbit.com/eu/charge3)). At last, if the user wants to see some metrics about his health and food/liquids consumption, he can use the statistics page to access this information. 
+
+It is also worth noting that the Regular User **can** use our system without requiring any association with a doctor.
 
 #### 2.2.2. State of The Art
 
