@@ -232,7 +232,9 @@ To sum up, the main actors of our system are described in the following list:
 
 - **Doctor:** This actor will have access to a web application (or desktop application) with informations provided by the patient's applications.
 
-- **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.
+- **Administrators:** This actor will have a simple web admin dashboard, with informations and statistics about the applications used by the other two actors.  
+
+![actors](./assets/actors.png)
 
 ### 2.4. Use Cases
 
@@ -287,7 +289,7 @@ The use of standard and known technologies will help us mantain the quality of o
 
 #### 2.7.1. Technological architecture diagram  
 
-In order to undertand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together. We will also show what technologies and tools that will help us develop our information system.  
+In order to undertand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together. We will also show what are the technologies and tools that will help us develop our information system.  
 
 For a more detailed explanation about this diagram, [click here](./architecture/README.md).
 
