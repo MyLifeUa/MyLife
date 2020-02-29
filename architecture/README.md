@@ -4,7 +4,7 @@
 
 My Life monitoring system should be a complete information system, from the users interfaces up to the backend and persistence layers. Therefore, our team thought about a potencial architecture for this complex system, as illustrated in the next figure.
 
-![mylife-architecture](mylife-architecture.png)
+![technology-architecture](technology-architecture.png)
 
 ## 2. Technologies
 
@@ -80,22 +80,20 @@ In order to recognize cross-fit exercises with the camera of a smartphone, we ar
 
 #### 2.4.1. Main relational database  
 
-For the main database of our system, we are going to use the [MySQL](https://www.mysql.com/) relational database management system. Some benefits of this RDMS are:
+For the main database of our system, we are going to use the [PostgreSQL](https://www.postgresql.org/) relational database management system. Some benefits of this RDMS are:
 
-* **Data Security**
-* **On-Demand Scalability**
-* **High Performance**
-* **Round-the-clock Uptime**
-* **Comprehensive Transactional Support**
-* **Complete Workflow Control**
-* **Reduced Total Cost of Ownership**
-* **The Flexibility of Open Source**
+* **Open Source DBMS**
+* **Diverse Community**
+* **Function**
+* **ACID and Transaction**
+* **Diverse indexing techniques**
+* **Flexible Full-text search**
+* **Diverse kinds of replication**
+* **Diversified extension functions**
 
-#### 2.4.2. Food recognition and Cross-fit modules databases
+#### 2.4.2. Food images for recognition
 
-For the food recognition and cross-fit modules, we are going to use [MongoDB](https://www.mongodb.com/). 
-MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database makes you more productive.  
-With MongoDB, we can store documents with nutrional data about food and cross-fit exercises. We can also store images.  
+In order to recognize different foods through images, we will store them locally on a folder, without using any database.  
 
 #### 2.4.3. Real-time data 
 
