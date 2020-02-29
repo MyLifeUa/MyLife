@@ -186,28 +186,26 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 ### 2.1. Requirements gathering
 
-To fully address the problems in real life we need to solve, we should conduct several studies, analysis and interviews to get an idea of the actual usage our platform aims to have.
 
-With that objective in mind our process of requirements gathering can be divided into 3 distinct parts.
+To fully address the problems in real life we need to solve, we should conduct several **studies**, **analysis** and **interviews** to get an idea of the actual usage our platform aims to have.
 
-In the first part, we discussed different ideas through brainstorms to decide what will be the system boundaries, objectives and users.
+With that objective in mind our process of requirements gathering can be divided into **3 distinct parts**.
 
-The next part was a research about the current state of the art in the area of health, exercise and food tracking where we analyzed different papers, projects, studies and technologies. This investigation improved a lot our requirements because it allowed understanding what has been done, what has worked in the area and what has not worked.
+In the **first part**, we discussed different ideas through **brainstorms** to decide what will be the **system boundaries**, **objectives** and **users**.
 
-The final part, and probably the most important one, were the talks with our advisor, Carlos Costa. His experience in information systems in the medicine area was essential to do decide what we should include and not include in our final product. Interviews with both doctors and potential users would be of help, but because the available time for this phase was short they were not possible. We are going to present an overview of the discussed topics with our advisor:
+**The next part** was a research about the **current state of the art** in the area of health, exercise and food tracking where we analyzed different papers, projects, studies and technologies. This investigation improved a lot our requirements because it allowed us to understand what has been done, what has worked in the area and what has not worked.
 
-- The recognition of food images can be a tricky part of our system, especially when we stack different ingredients and food is all scrambled. For that reason, he told us to focus first on the recognition of food that is separated and that we can differentiate from one another.
+**The final part**, and probably the most important one, were the talks with our advisor, Carlos Costa. His experience in information systems in the medical area was essential to do decide what we should include and not include in our final product. Interviews with both doctors and potential users would be of help, but because the available time for this phase was short they were not possible. We are going to present an overview of the discussed topics with our advisor:
 
-- The recognition of physical exercises is a secondary part of our product and it's a very complex activity. For those reasons, we were advised to first focus on identifying a single exercise and scale to other exercises when the first one is perfected.
+- **The recognition of food images** can be a tricky part of our system, especially when we stack different ingredients and the food is mixed. For that reason, he told us to focus first on the recognition of food that is separated and that we can differentiate from one another.
 
-- Diabetes is one of the most common diseases nowadays, affecting a big chunk of the world population. Because of that reason we had the idea of integrating diabetes monitoring systems in our product besides the Fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the Fitbit...
+- **The recognition of physical exercises** is a secondary part of our product and it's a very complex activity. For those reasons, we were advised to first focus on identifying a single exercise and scale to other exercises when the first one is perfected.
 
-(ESCREVER POR TOPICOS)
-(REFERENCIAR O QUE JA NAO VAMOS FAZER COMO O MONITORING DE DIABETES)
+- Diabetes is one of the most common diseases nowadays, affecting a big chunk of the world population. Because of that reason we had the idea of **integrating diabetes monitoring systems** in our product besides the Fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the Fitbit  monotoring system perfectly.
 
-Such interviews with both doctors and potential users would be of help.
+Given all these insights and after weighting the **pros** and **cons**, the following decisions were made. The devices to be integrated in the system would be the fitbit smart watch because it's a commercial device accesible to the general public and at the same time it can give important information to the user and the doctor associated to that user like, blood pressure, heart rate and other metrics.
 
-On the other hand, as we aim to deliver an application for general use, we need to think objectively about what we would want to do with an application like this and address those themes/problems.
+In order to access the system, it was decided to build a **web application** so that medics could access it, at any time. The general user will also have access to a **web application** but the **main platform** will be the **mobile application** capable of taking photos to the food and of recording the user's workout. Besides that we also decided to build a **web application** only available to the administrators where they can visualize important metrics about the product and add new doctors to the ecosystem.
 
 ### 2.2. Context and State of The Art (SOA)
 
