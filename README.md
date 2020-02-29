@@ -285,9 +285,9 @@ Therefore, our goal is to make use of industry standards in **database systems**
 
 The use of standard and known technologies will help us mantain the quality of our product.
 
-### 2.7. System architecture deployment diagram
+### 2.7. System Architecture
 
-#### 2.7.1. Technological architecture diagram  
+#### 2.7.1. Technological Architecture Diagram  
 
 In order to undertand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together. We will also show what are the technologies and tools that will help us develop our information system.  
 
@@ -295,12 +295,12 @@ For a more detailed explanation about this diagram, [click here](./architecture/
 
 ![technology-architecture](./assets/technology-architecture.png)  
 
-#### 2.7.2. Deployment diagram  
+#### 2.7.2. Deployment Diagram  
 
 Our information system will be made of several distinct components, each one of them running in a different machine. In this sense, the following deployment diagram aims to show how this components will be deployed and connected together, communicating between them.
 
 ![deployment-diagram](./assets/deployment-diagram.png)
 
-### 2.8. Domain model
+### 2.8. Domain Model
 
 ### 2.9. User Interaction
