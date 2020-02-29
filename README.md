@@ -291,7 +291,7 @@ In order to undertand how our system will work as a whole, we defined the follow
 
 For a more detailed explanation about this diagram, [click here](./architecture/README.md).
 
-![technology-architecture](technology-architecture.png)  
+![technology-architecture](./assets/technology-architecture.png)  
 
 
 ### 2.8. Domain model

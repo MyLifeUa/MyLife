@@ -4,7 +4,7 @@
 
 My Life monitoring system should be a complete information system, from the users interfaces up to the backend and persistence layers. Therefore, our team thought about a potencial architecture for this complex system, as illustrated in the next figure.
 
-![technology-architecture](technology-architecture.png)
+![technology-architecture](../assets/technology-architecture.png)
 
 ## 2. Technologies
 
