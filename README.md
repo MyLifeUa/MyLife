@@ -295,6 +295,11 @@ For a more detailed explanation about this diagram, [click here](./architecture/
 
 ![technology-architecture](./assets/technology-architecture.png)  
 
+#### 2.7.2. Deployment diagram  
+
+Our information system will be made of several distinct components, each one of them running in a different machine. In this sense, the following deployment diagram aims to show how this components will be deployed and connected together, communicating between them.
+
+![deployment-diagram](./assets/deployment-diagram.png)
 
 ### 2.8. Domain model
 
