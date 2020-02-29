@@ -2,36 +2,38 @@
 
 # My Life - Personal Lifestyle Monitoring System
 
-## Table of Contents
-
 - [1. Inception Phase](#1-inception-phase)
-  - [1.1. Context](#11-context)
-  - [1.2. Problem](#12-problem)
-  - [1.3. Personas](#13-personas)
-  - [1.4. Goal](#14-goal)
-  - [1.5. Task List](#15-task-list)
-  - [1.6. Expected Results](#16-expected-results)
-  - [1.7. Key system functionalities](#17-key-system-functionalities)
-  - [1.8. Related work](#18-related-work)
-  - [1.9. Communication Plan](#19-communication-plan)
-  - [1.10. Team Roles](#110-team-roles)
-  - [1.11. Project calendar](#111-project-calendar)
+  * [1.1. Context](#11-context)
+  * [1.2. Problem](#12-problem)
+  * [1.3. Personas](#13-personas)
+  * [1.4. Goal](#14-goal)
+  * [1.5. Task List](#15-task-list)
+  * [1.6. Expected Results](#16-expected-results)
+  * [1.7. Key system functionalities](#17-key-system-functionalities)
+  * [1.8. Related work](#18-related-work)
+  * [1.9. Communication Plan](#19-communication-plan)
+  * [1.10. Team Roles](#110-team-roles)
+  * [1.11. Project calendar](#111-project-calendar)
 - [2. Elaboration Phase](#2-elaboration-phase)
-  - [2.1. Requirements gathering](#21-requirements-gathering)
-  - [2.2. Context and State of The Art (SOA)](#22-context-and-state-of-the-art--soa-)
-    - [2.2.1. Context](#221-context)
-    - [2.2.2. State of The Art](#222-state-of-the-art)
-  - [2.3. Actors](#23-actors)
-  - [2.4. Use Cases](#24-use-cases)
-    - [2.4.1. Web Application Patient [Tom1k]](#241-web-application-patient--tom1k-)
-    - [2.4.2. Web Application Doctor [Tom1k]](#242-web-application-doctor--tom1k-)
-    - [2.4.3. Web Application Admin [Mendes]](#243-web-application-admin--mendes-)
-    - [2.4.4. Mobile Application [Mendes]](#244-mobile-application--mendes-)
-  - [2.5. Functional requirements](#25-functional-requirements)
-  - [2.6. Non-functional requirements](#26-non-functional-requirements)
-  - [2.7. System architecture deployment diagram](#27-system-architecture-deployment-diagram)
-  - [2.8. Domain model](#28-domain-model)
-  - [2.9. User Interaction](#29-user-interaction)
+  * [2.1. Requirements gathering](#21-requirements-gathering)
+  * [2.2. Context and State of The Art (SOA)](#22-context-and-state-of-the-art--soa-)
+    + [2.2.1. Context](#221-context)
+    + [2.2.2. State of The Art and Related Work](#222-state-of-the-art-and-related-work)
+      - [Food Recognition and Classification](#food-recognition-and-classification)
+      - [Workout Recognition and Correction](#workout-recognition-and-correction)
+  * [2.3. Actors](#23-actors)
+  * [2.4. Use Cases](#24-use-cases)
+    + [2.4.1. Web Application Patient [Tom1k]](#241-web-application-patient--tom1k-)
+    + [2.4.2. Web Application Doctor [Tom1k]](#242-web-application-doctor--tom1k-)
+    + [2.4.3. Web Application Admin [Mendes]](#243-web-application-admin--mendes-)
+    + [2.4.4. Mobile Application [Mendes]](#244-mobile-application--mendes-)
+  * [2.5. Functional requirements](#25-functional-requirements)
+  * [2.6. Non-functional requirements](#26-non-functional-requirements)
+  * [2.7. System Architecture](#27-system-architecture)
+    + [2.7.1. Technological Architecture Diagram](#271-technological-architecture-diagram)
+    + [2.7.2. Deployment Diagram](#272-deployment-diagram)
+  * [2.8. Domain Model](#28-domain-model)
+  * [2.9. User Interaction](#29-user-interaction)
 
 ## 1. Inception Phase
 
@@ -55,21 +57,21 @@ Gymnasiums and personal trainers try to instil a culture of exercise and a healt
 
 - **Doctor**
 
-  António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João.
+   António Silva, 35 years old, born in Ovar, Aveiro, lives in Porto where he currently works as a doctor in Hospital de São João.
 
-  António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
+   António feels the need to have more information about his patients daily food routine, workout routine, clinical context and other metrics, but he feels that the 5 to 10 min medical appointments aren't enough to gather all this information.
 
-  António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more attention to his patients.
+   António feels that with an easy-to-use application, where he can access all daily-life details of his patients, he could have more productive appointments and pay more attention to his patients.
 
 - **Patient**
 
-  Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Engineer in Blip.
+   Francisca Barros, 25 years old, born in Águeda, Aveiro, lives in Porto where she works as a Test Engineer in Blip.
 
-  Francisca cares about her health, so she tries to have a healthy life, keeping track of her daily food intake and a balanced weekly workout routine. She also likes technology and uses a bunch of high-end gadgets to help her track health metrics like heart rate and steps taken in a day.
+   Francisca cares about her health, so she tries to have a healthy life, keeping track of her daily food intake and a balanced weekly workout routine. She also likes technology and uses a bunch of high-end gadgets to help her track health metrics like heart rate and steps taken in a day.
 
-  Unfortunately, giving her tight schedule related to work, she doesn't always have the time to track her daily food consumption or track if she is complying to her workout plan and correctly doing the exercises.
+   Unfortunately, giving her tight schedule related to work, she doesn't always have the time to track her daily food consumption or track if she is complying to her workout plan and correctly doing the exercises.
 
-  Therefore, Francisca feels that with an easy-to-use system, that enables her to track her food consumption in an easy and fast way and also helps her make sure she is complying with her workout schedule and correctly executing the exercises, she could have a healthier lifestyle and follow her workout plan more rigorously.
+   Therefore, Francisca feels that with an easy-to-use system, that enables her to track her food consumption in an easy and fast way and also helps her make sure she is complying with her workout schedule and correctly executing the exercises, she could have a healthier lifestyle and follow her workout plan more rigorously.
 
 ### 1.4. Goal
 
@@ -210,30 +212,27 @@ On the other hand, as we aim to deliver an application for general use, we need 
 ### 2.2. Context and State of The Art (SOA)
 
 #### 2.2.1. Context
-
 In this subsection, it's presented a description of how the system is expected to be used by the different stakeholders.
 
 To begin with, an **Administrator** (someone in charge of the system administration) should register/unregister doctors in the system. This will be an occasional operation taking no longer than a couple of minutes. It also has access to some charts and statistics regarding the system.
 
 Once a **Doctor** is registered in the system and understood it well, in the situation of an appointment with a **Patient**, that can benefit from the monitoring system, he presents it to the patient. If the patient is already enrolled in the system as a normal user, the doctor can add the patient (regular user) as one of its patients. If the patient is not yet enrolled and is willing to use the system, he can register himself on the web/mobile application (this can also be done by his doctor, if the patient prefers it).
 
-The **Patient / Regular User** can use the web application and/or mobile app to keep track of food consumptions and metrics regarding calories and, possibly, macronutrients. To do this, it needs to be previously logged in the system and take photos of the food it consumes. The user will also have the possibility to integrate this tracking with other devices like a smart band (e.g: [Fitbit Charge 3](https://www.fitbit.com/eu/charge3)). At last, if the user wants to see some metrics about his health and food/liquids consumption, he can use the statistics page to access this information.
+The **Patient / Regular User** can use the web application and/or mobile app to keep track of food consumptions and metrics regarding calories and, possibly, macronutrients. To do this, it needs to be previously logged in the system and take photos of the food it consumes. The user will also have the possibility to integrate this tracking with other devices like a smart band (e.g: [Fitbit Charge 3](https://www.fitbit.com/eu/charge3)). At last, if the user wants to see some metrics about his health and food/liquids consumption, he can use the statistics page to access this information. 
 
 It is also worth noting that the Regular User **can** use our system without requiring any association with a doctor.
 
 #### 2.2.2. State of The Art and Related Work
 
 ##### Food Recognition and Classification
-
-The [work](https://ieeexplore.ieee.org/document/8228338) of David J. Attokaren _et. al_ presents an implementation of Convolutional Neural Networks to execute Food Classification from images. The Dataset used was Food-101 which contains 101 000 images and 101 categories. It was also used a model from Google: **Google Inception V3**. They used that Food-101 dataset to train the model and the ImageNet one to test the system. Bellow, we have a table comparing results to their approach to other already known models.
+The [work](https://ieeexplore.ieee.org/document/8228338) of David J. Attokaren *et. al* presents an implementation of Convolutional Neural Networks to execute Food Classification from images. The Dataset used was Food-101 which contains 101 000 images and 101 categories. It was also used a model from Google: **Google Inception V3**. They used that Food-101 dataset to train the model and the ImageNet one to test the system. Bellow, we have a table comparing results to their approach to other already known models.
 
 ![Table of Results](./assets/image-recogn-results.png)
 
 From what we found there are already two successful products ([Bite AI](https://bite.ai/) and [Snap IT](https://www.loseit.com/snapit/)) that undertake a similar purpose in the form of a Rest API. These two services are a reference point to what we want to do.
 
 ##### Workout Recognition and Correction
-
-In the [paper](https://www.researchgate.net/publication/324759769_Pose_Trainer_Correcting_Exercise_Posture_using_Pose_Estimation) produce by Steven Chen and Richard Yang is presented a tool produced by them _Pose Trainer_: an application that detects the user’s exercise pose
+In the [paper](https://www.researchgate.net/publication/324759769_Pose_Trainer_Correcting_Exercise_Posture_using_Pose_Estimation) produce by Steven Chen and Richard Yang is presented a tool produced by them *Pose Trainer*: an application that detects the user’s exercise pose
 and provides personalized, detailed recommendations on how the user can improve their form.
 
 For the pose estimation, it was used pre-trained real-time system, [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), that can detect human body keypoints in videos.
@@ -241,7 +240,7 @@ For the pose estimation, it was used pre-trained real-time system, [OpenPose](ht
 For the posture evaluation (pose training) component,
 they have recorded videos of themselves performing exercises. These videos include correctly performed exercise examples, as well as intentionally incorrect ones.
 
-Bellow, is presented a diagram representative of the pipeline flow of _Pose Trainer_:
+Bellow, is presented a diagram representative of the pipeline flow of *Pose Trainer*:
 
 ![Pipeline Overview](./assets/pose-trainer-pipeline-overview.png)
 
@@ -265,7 +264,7 @@ To sum up, the main actors of our system are described in the following list:
 
 - **Doctor:** This actor will have access to a web application (or desktop application) with the information provided by the patient's applications.
 
-- **Administrators:** This actor will have a simple web admin dashboard, with information and statistics about the applications used by the other two actors.
+- **Administrators:** This actor will have a simple web admin dashboard, with information and statistics about the applications used by the other two actors.  
 
 ![actors](./assets/actors.png)
 
@@ -320,15 +319,15 @@ The use of standard and known technologies will help us maintain the quality of 
 
 ### 2.7. System Architecture
 
-#### 2.7.1. Technological Architecture Diagram
+#### 2.7.1. Technological Architecture Diagram  
 
-To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together. We will also show what are the technologies and tools that will help us develop our information system.
+To understand how our system will work as a whole, we defined the following technological architecture, that shows how the different layers and the components inside them are linking together. We will also show what are the technologies and tools that will help us develop our information system.  
 
 For a more detailed explanation about this diagram, [click here](./architecture/README.md).
 
-![technology-architecture](./assets/technology-architecture.png)
+![technology-architecture](./assets/technology-architecture.png)  
 
-#### 2.7.2. Deployment Diagram
+#### 2.7.2. Deployment Diagram  
 
 Our information system will be made of several distinct components, each one of them running in a different machine. In this sense, the following deployment diagram aims to show how these components will be deployed and connected, communicating between them.
 
