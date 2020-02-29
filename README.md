@@ -283,15 +283,36 @@ The whole system can be described in the figure below (2.5.1), it has three main
 
 #### 2.4.1. Web Application Patient [Tom1k]
 
-- Enumerar features
-- Atribuir prioridades as features
-- Diagrama com interaçoes com o sistema
+- Ver medidas de saúde (Prioridade: Alta)
+- Criar plano de treino (Prioridade: Média)
+- Comunicar com o médico (Prioridade: Baixo)
 
 #### 2.4.2. Web Application Doctor [Tom1k]
 
+- Visualizar foodlogs dos pacientes (Prioridade: Alta)
+- Ver métricas dos pacientes (Prioridade: Alta)
+- Adicionar novos pacientes (Prioridade: Alta)
+- Visualizar foodlogs dos pacientes (Prioridade: Alta)
+- Receber avisos de casos alarmantes (Prioridade: Média)
+
+
 #### 2.4.3. Web Application Admin [Mendes]
 
+- Ver dados analiticos da plataforma (Prioridade: Alta)
+- Ver dados analiticos dos utilizadores? (Prioridade: Alta)
+- Adicionar médicos a plataforma (Prioridade: Alta)
+- Gerir conexões médico-paciente (Prioridade: Alta)
+
+
 #### 2.4.4. Mobile Application [Mendes]
+
+- Ver medidas de saúde (Prioridade: Alta)
+- Criar plano de treino (Prioridade: Média)
+- Comunicar com o médico (Prioridade: Média)
+- Inserir log de comida (Foto ou Manual) (Prioridade: Alta)
+- Gravar treino (Prioridade: Alta)
+- Conectar fitbit (Prioridade: Baixa)
+
 
 ### 2.5. Functional requirements
 
