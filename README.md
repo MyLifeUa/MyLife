@@ -145,7 +145,7 @@ The following systems, technologies and applications are interesting within the 
 - **BiteAI:** [https://bite.ai/](https://bite.ai/)
 - **MyFitnessPal:** [https://www.myfitnesspal.com/](https://www.myfitnesspal.com/)
 - **OpenPose:** [https://github.com/CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-- **Snap IT** [https://www.loseit.com/snapit/](https://www.loseit.com/snapit/)
+- **Snap IT:** [https://www.loseit.com/snapit/](https://www.loseit.com/snapit/)
 
 ### 1.9. Communication Plan
 
