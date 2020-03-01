@@ -289,7 +289,7 @@ The whole system can be described in the figure below (2.5.1), it has three main
 
 - Visualizar foodlogs dos pacientes (Prioridade: Alta)
 - Ver métricas dos pacientes (Prioridade: Alta)
-- Adicionar novos pacientes (Prioridade: Alta)
+- Adicionar novos pacientes (Prioridade: Média)
 - Visualizar foodlogs dos pacientes (Prioridade: Alta)
 - Receber avisos de casos alarmantes (Prioridade: Média)
 
@@ -297,17 +297,16 @@ The whole system can be described in the figure below (2.5.1), it has three main
 #### 2.4.3. Web Application Admin [Mendes]
 
 - Ver dados analiticos da plataforma (Prioridade: Alta)
-- Adicionar médicos a plataforma (Prioridade: Alta)
-- Gerir conexões médico-paciente (Prioridade: Alta)
+- Adicionar médicos a plataforma (Prioridade: Média)
+- Gerir conexões médico-paciente (Prioridade: Média)
 
 
 #### 2.4.4. Mobile Application [Mendes]
 
 - Ver medidas de saúde (Prioridade: Alta)
 - Criar plano de treino (Prioridade: Média)
-- Comunicar com o médico (Prioridade: Média)
 - Inserir log de comida (Foto ou Manual) (Prioridade: Alta)
-- Gravar treino (Prioridade: Alta)
+- Gravar treino (Prioridade: Média)
 
 
 ### 2.5. Functional requirements
