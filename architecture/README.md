@@ -58,6 +58,8 @@ For the messages queues, we are going to use [RabbitMQ](https://www.rabbitmq.com
 - Tools & Plugins
 - Management & Monitoring
 
+This module can possibly be replaced/complemented with the use of the [Fitbit API](https://dev.fitbit.com/build/reference/web-api/)
+
 #### 2.3.3. System core
 
 For the core of our system at the backend, we are going to use [Django](https://www.djangoproject.com/) and [Django REST Framework](https://www.django-rest-framework.org/).
