@@ -285,18 +285,24 @@ The whole system can be described in the figure below (2.5.1), it has three main
 Through the web application the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
 
 - **Create a training plan** (_Priority: Medium_)  
-The user is supposed to be able to create a training plan, selecting the amount of repetitions and sets of a short selection of exercises and create a final plan.
+The user will be able to create a training plan, selecting the amount of repetitions and sets of a short selection of exercises and create a final plan.
 
-- **Communicate with the medic** (_Priority: Low_)
+- **Communicate with the medic** (_Priority: Low_)  
 In a future phase of development, the user will be able to communicate with the doctor through the app, to facilitate patient-doctor communication.
 
 #### 2.4.2. Web Application Doctor [Tom1k]
 
-- **Visualizar foodlogs dos pacientes** (_Priority: High_)
-- **Ver métricas dos pacientes** (_Priority: High_)
-- **Adicionar novos pacientes** (_Priority: Medium_)
-- **Visualizar foodlogs dos pacientes** (_Priority: High_)
-- **Receber avisos de casos alarmantes** (_Priority: Medium_)
+- **View patients foodlogs** (_Priority: High_)  
+The doctor is supposed to be able to view his assigned patients foodlogs and check if there is an uncommon pattern or if the patient has been correctly following the prescribed diet.
+
+- **Check patients measurements** (_Priority: High_)  
+The doctor will also be able to view the patients health measurements, so he can extrapolate that data and formulate hypothesis.
+
+- **Add new patients** (_Priority: Medium_)  
+The doctor will also be able to add patients to his watch list so he can start tracking them through the app.
+
+- **Receive notifications on urgent cases** (_Priority: Medium_)  
+On a future phase of development, the doctor will receive urgent notifications that one of his assigned patients has measurements that shouldn't go unnoticed and therefore notifies the doctor that something is wrong
 
 
 #### 2.4.3. Web Application Admin [Mendes]
