@@ -281,32 +281,37 @@ The whole system can be described in the figure below (2.5.1), it has three main
 
 #### 2.4.1. Web Application Patient [Tom1k]
 
-- Ver medidas de saúde (Prioridade: Alta)
-- Criar plano de treino (Prioridade: Média)
-- Comunicar com o médico (Prioridade: Baixo)
+- **Check health measures** (_Priority: High_)  
+Through the web application the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
+
+- **Create a training plan** (_Priority: Medium_)  
+The user is supposed to be able to create a training plan, selecting the amount of repetitions and sets of a short selection of exercises and create a final plan.
+
+- **Communicate with the medic** (_Priority: Low_)
+In a future phase of development, the user will be able to communicate with the doctor through the app, to facilitate patient-doctor communication.
 
 #### 2.4.2. Web Application Doctor [Tom1k]
 
-- Visualizar foodlogs dos pacientes (Prioridade: Alta)
-- Ver métricas dos pacientes (Prioridade: Alta)
-- Adicionar novos pacientes (Prioridade: Média)
-- Visualizar foodlogs dos pacientes (Prioridade: Alta)
-- Receber avisos de casos alarmantes (Prioridade: Média)
+- **Visualizar foodlogs dos pacientes** (_Priority: High_)
+- **Ver métricas dos pacientes** (_Priority: High_)
+- **Adicionar novos pacientes** (_Priority: Medium_)
+- **Visualizar foodlogs dos pacientes** (_Priority: High_)
+- **Receber avisos de casos alarmantes** (_Priority: Medium_)
 
 
 #### 2.4.3. Web Application Admin [Mendes]
 
-- Ver dados analiticos da plataforma (Prioridade: Alta)
-- Adicionar médicos a plataforma (Prioridade: Média)
-- Gerir conexões médico-paciente (Prioridade: Média)
+- **Ver dados analiticos da plataforma** (_Priority: High_)
+- **Adicionar médicos a plataforma** (_Priority: Medium_)
+- **Gerir conexões médico-paciente** (_Priority: Medium_)
 
 
 #### 2.4.4. Mobile Application [Mendes]
 
-- Ver medidas de saúde (Prioridade: Alta)
-- Criar plano de treino (Prioridade: Média)
-- Inserir log de comida (Foto ou Manual) (Prioridade: Alta)
-- Gravar treino (Prioridade: Média)
+- **Ver medidas de saúde** (_Priority: High_)
+- **Criar plano de treino** (_Priority: Medium_)
+- **Inserir log de comida (Foto ou Manual)** (_Priority: High_)
+- **Gravar treino** (_Priority: Medium_)
 
 
 ### 2.5. Functional requirements
