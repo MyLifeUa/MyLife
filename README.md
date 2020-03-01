@@ -297,7 +297,6 @@ The whole system can be described in the figure below (2.5.1), it has three main
 #### 2.4.3. Web Application Admin [Mendes]
 
 - Ver dados analiticos da plataforma (Prioridade: Alta)
-- Ver dados analiticos dos utilizadores? (Prioridade: Alta)
 - Adicionar médicos a plataforma (Prioridade: Alta)
 - Gerir conexões médico-paciente (Prioridade: Alta)
 
@@ -309,7 +308,6 @@ The whole system can be described in the figure below (2.5.1), it has three main
 - Comunicar com o médico (Prioridade: Média)
 - Inserir log de comida (Foto ou Manual) (Prioridade: Alta)
 - Gravar treino (Prioridade: Alta)
-- Conectar fitbit (Prioridade: Baixa)
 
 
 ### 2.5. Functional requirements
