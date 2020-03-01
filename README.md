@@ -339,6 +339,18 @@ On a future phase of development, the doctor will receive urgent notifications t
    1. (Possibly) Support integration with legacy services.
 6. **Regulatory Requirements**:
 
+In relation to the use cases enumerated above:
+
+1. The data generated from the user (exercise, food, ...) should be able to be accessed through a platform -> Data from the sensors should be available on the web client and mobile app.
+2. The user should have a platform in which he can create and design a healh plan -> Web client should have a plan design platform.
+3. A chat application for communication between doctor and patient. It should also allow urgent notifications.
+4. Communication between patient data a doctor, through database and business logic.
+5. Interface for doctor to search user in the system and add them to his patient list.
+6. Admin page to view analytics (possibly use Django admin), add users and connections between them.
+7. Photograph food to get data on mobile app. 
+8. Insert food data on web/mobile app.
+9. Record exercise and measure if it has been done correctly.
+
 ### 2.6. Non-functional requirements
 
 We want our system to assure performance, availability, recoverability, maintainability, security, data integrity, usability, or interoperability.
