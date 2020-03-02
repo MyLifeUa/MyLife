@@ -189,7 +189,7 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 To fully address the problems in real life we need to solve, we should conduct several **studies**, **analysis** and **interviews** to get an idea of the actual usage our platform aims to have.
 
-With that objective in mind our process of requirements gathering can be divided into **3 distinct parts**.
+With that objective in mind, our process of requirements gathering can be divided into **3 distinct parts**.
 
 In the **first part**, we discussed different ideas through **brainstorms** to decide what will be the **system boundaries**, **objectives** and **users**.
 
@@ -201,11 +201,11 @@ In the **first part**, we discussed different ideas through **brainstorms** to d
 
 - **The recognition of physical exercises** is a secondary part of our product and it's a very complex activity. For those reasons, we were advised to first focus on identifying a single exercise and scale to other exercises when the first one is perfected.
 
-- Diabetes is one of the most common diseases nowadays, affecting a big chunk of the world population. Because of that reason we had the idea of **integrating diabetes monitoring systems** in our product besides the Fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the Fitbit  monotoring system perfectly.
+- Diabetes is one of the most common diseases nowadays, affecting a big chunk of the world population. Because of that reason we had the idea of **integrating diabetes monitoring systems** in our product besides the Fitbit monitoring watch. We decided not to advance with this idea because we want to focus on integrating our system with the Fitbit monitoring system perfectly.
 
-Given all these insights and after weighting the **pros** and **cons**, the following decisions were made. The devices to be integrated in the system would be the fitbit smart watch because it's a commercial device accesible to the general public and at the same time it can give important information to the user and the doctor associated to that user like, blood pressure, heart rate and other metrics.
+Given all these insights and after weighting the **pros** and **cons**, the following decisions were made. The devices to be integrated with the system would be the Fitbit smartwatch because it's a commercial device accessible to the general public and at the same time it can give important information to the user and the doctor associated to that user like blood pressure, heart rate and other metrics.
 
-In order to access the system, it was decided to build a **web application** so that medics could access it, at any time. The general user will also have access to a **web application** but the **main platform** will be the **mobile application** capable of taking photos to the food and of recording the user's workout. Besides that we also decided to build a **web application** only available to the administrators where they can visualize important metrics about the product and add new doctors to the ecosystem.
+To access the system, it was decided to build a **web application** so that medics could access it, at any time. The general user will also have access to a **web application** but the **main platform** will be the **mobile application** capable of taking photos to the food and of recording the user's workout. Besides that we also decided to build a **web application** only available to the administrators where they can visualize important metrics about the product and add new doctors to the ecosystem.
 
 ### 2.2. Context and State of The Art (SOA)
 
@@ -277,26 +277,26 @@ The whole system can be described in the figure below (2.5.1), it has three main
 - **Web application** (Doctor and patient)
 - **Web application for analytics** (Administrator)
 
-(Diagrama 2.5.1 aqui)
+(Diagram 2.5.1 here)
 
 #### 2.4.1. Web Application Patient [Tom1k]
 
 - **Check health measures** (_Priority: High_)  
-Through the web application the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
+Through the web application, the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
 
 - **Create a training plan** (_Priority: Medium_)  
-The user will be able to create a training plan, selecting the amount of repetitions and sets of a short selection of exercises and create a final plan.
+The user will be able to create a training plan, selecting the number of repetitions and sets of a short selection of exercises and create a final plan.
 
 - **Communicate with the medic** (_Priority: Low_)  
 In a future phase of development, the user will be able to communicate with the doctor through the app, to facilitate patient-doctor communication.
 
 #### 2.4.2. Web Application Doctor [Tom1k]
 
-- **View patients foodlogs** (_Priority: High_)  
-The doctor is supposed to be able to view his assigned patients foodlogs and check if there is an uncommon pattern or if the patient has been correctly following the prescribed diet.
+- **View patients food logs** (_Priority: High_)  
+The doctor is supposed to be able to view his assigned patient's food logs and check if there is an uncommon pattern or if the patient has been correctly following the prescribed diet.
 
 - **Check patients measurements** (_Priority: High_)  
-The doctor will also be able to view the patients health measurements, so he can extrapolate that data and formulate hypothesis.
+The doctor will also be able to view the patient's health measurements, so he can extrapolate that data and formulate a hypothesis.
 
 - **Add new patients** (_Priority: Medium_)  
 The doctor will also be able to add patients to his watch list so he can start tracking them through the app.
@@ -339,15 +339,15 @@ On a future phase of development, the doctor will receive urgent notifications t
    1. (Possibly) Support integration with legacy services.
 6. **Regulatory Requirements**:
 
-In relation to the use cases enumerated above:
+Concerning the use cases enumerated above:
 
 1. The data generated from the user (exercise, food, ...) should be able to be accessed through a platform -> Data from the sensors should be available on the web client and mobile app.
-2. The user should have a platform in which he can create and design a healh plan -> Web client should have a plan design platform.
+2. The user should have a platform in which he can create and design a health plan -> Web client should have a plan design platform.
 3. A chat application for communication between doctor and patient. It should also allow urgent notifications.
 4. Communication between patient data a doctor, through database and business logic.
-5. Interface for doctor to search user in the system and add them to his patient list.
+5. Interface for a doctor to search user in the system and add them to his patient list.
 6. Admin page to view analytics (possibly use Django admin), add users and connections between them.
-7. Photograph food to get data on mobile app. 
+7. Photograph food to get data on the mobile app. 
 8. Insert food data on web/mobile app.
 9. Record exercise and measure if it has been done correctly.
 
