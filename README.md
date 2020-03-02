@@ -271,15 +271,13 @@ To sum up, the main actors of our system are described in the following list:
 
 ### 2.4. Use Cases
 
-The whole system can be described in the figure below (2.5.1), it has three main packages:
+#### 2.4.1. Use Cases model  
 
-- **Mobile application** (Patient)
-- **Web application** (Doctor and patient)
-- **Web application for analytics** (Administrator)
+In order to understand how our actors will interact with our system, first we must define what are the use cases related to those interactions. The following diagram shows what interfaces our actors will use:
 
-(Diagram 2.5.1 here)
+![use-case-model](./assets/use-case-model.png)  
 
-#### 2.4.1. Web Application Patient [Tom1k]
+#### 2.4.2. Web Application Patient [Tom1k]
 
 - **Check health measures** (_Priority: High_)  
 Through the web application, the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
@@ -290,7 +288,7 @@ The user will be able to create a training plan, selecting the number of repetit
 - **Communicate with the medic** (_Priority: Low_)  
 In a future phase of development, the user will be able to communicate with the doctor through the app, to facilitate patient-doctor communication.
 
-#### 2.4.2. Web Application Doctor [Tom1k]
+#### 2.4.3. Web Application Doctor [Tom1k]
 
 - **View patients food logs** (_Priority: High_)  
 The doctor is supposed to be able to view his assigned patient's food logs and check if there is an uncommon pattern or if the patient has been correctly following the prescribed diet.
@@ -305,14 +303,14 @@ The doctor will also be able to add patients to his watch list so he can start t
 On a future phase of development, the doctor will receive urgent notifications that one of his assigned patients has measurements that shouldn't go unnoticed and therefore notifies the doctor that something is wrong
 
 
-#### 2.4.3. Web Application Admin [Mendes]
+#### 2.4.4. Web Application Admin [Mendes]
 
 - **Ver dados analiticos da plataforma** (_Priority: High_)
 - **Adicionar médicos a plataforma** (_Priority: Medium_)
 - **Gerir conexões médico-paciente** (_Priority: Medium_)
 
 
-#### 2.4.4. Mobile Application [Mendes]
+#### 2.4.5. Mobile Application [Mendes]
 
 - **Ver medidas de saúde** (_Priority: High_)
 - **Criar plano de treino** (_Priority: Medium_)
