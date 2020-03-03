@@ -277,7 +277,16 @@ In order to understand how our actors will interact with our system, first we mu
 
 ![use-case-model](./assets/use-case-model.png)  
 
-#### 2.4.2. Web Application Patient [Tom1k]
+#### 2.4.2. Web Application Patient
+
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check health measures | Brief description | High |
+| Create a training plan | Brief description | Medium |
+| Create a nutritional plan | Brief description | Medium |
+| Communicate with the doctor | Brief description | Low |
+| Check doctor's reports | Brief description | Low |
+
 
 - **Check health measures** (_Priority: High_)  
 Through the web application, the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
