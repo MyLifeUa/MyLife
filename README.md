@@ -283,48 +283,48 @@ In order to understand how our actors will interact with our system, first we mu
 |----------|-------------------|----------|
 | Check health measures | Brief description | High |
 | Create a training plan | Brief description | Medium |
+| Check his training plans| Brief description | Medium |
 | Create a nutritional plan | Brief description | Medium |
+| Check his nutritional plans| Brief description | Medium |
 | Communicate with the doctor | Brief description | Low |
 | Check doctor's reports | Brief description | Low |
 
+#### 2.4.3. Web Application Doctor
 
-- **Check health measures** (_Priority: High_)  
-Through the web application, the user (patient) is supposed to be able to check the state of his condition and closely follow significant health measurements.
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check patients health measures | Brief description | High |
+| Manage patients nutritional plans | Brief description | High |
+| Manage patients training plans | Brief description | High |
+| Manage patients | Brief description | High |
+| View patients food logs | Brief description | Medium |
+| View patients training logs | Brief description | Medium |
+| Produce a report | Brief description | Low |
+| Receive urgent notifications | Brief description | Low |
 
-- **Create a training plan** (_Priority: Medium_)  
-The user will be able to create a training plan, selecting the number of repetitions and sets of a short selection of exercises and create a final plan.
+#### 2.4.4. Web Application Admin
 
-- **Communicate with the medic** (_Priority: Low_)  
-In a future phase of development, the user will be able to communicate with the doctor through the app, to facilitate patient-doctor communication.
-
-#### 2.4.3. Web Application Doctor [Tom1k]
-
-- **View patients food logs** (_Priority: High_)  
-The doctor is supposed to be able to view his assigned patient's food logs and check if there is an uncommon pattern or if the patient has been correctly following the prescribed diet.
-
-- **Check patients measurements** (_Priority: High_)  
-The doctor will also be able to view the patient's health measurements, so he can extrapolate that data and formulate a hypothesis.
-
-- **Add new patients** (_Priority: Medium_)  
-The doctor will also be able to add patients to his watch list so he can start tracking them through the app.
-
-- **Receive notifications on urgent cases** (_Priority: Medium_)  
-On a future phase of development, the doctor will receive urgent notifications that one of his assigned patients has measurements that shouldn't go unnoticed and therefore notifies the doctor that something is wrong
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check data analytics | Brief description | High |
+| Manage doctors | Brief description | High |
+| Manage all entities | Brief description | Medium |
+| Manage system components | Brief description | low |
 
 
-#### 2.4.4. Web Application Admin [Mendes]
+#### 2.4.5. Mobile Application
 
-- **Ver dados analiticos da plataforma** (_Priority: High_)
-- **Adicionar médicos a plataforma** (_Priority: Medium_)
-- **Gerir conexões médico-paciente** (_Priority: Medium_)
-
-
-#### 2.4.5. Mobile Application [Mendes]
-
-- **Ver medidas de saúde** (_Priority: High_)
-- **Criar plano de treino** (_Priority: Medium_)
-- **Inserir log de comida (Foto ou Manual)** (_Priority: High_)
-- **Gravar treino** (_Priority: Medium_)
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Insert food log (Picture or manual) | Brief description | High |
+| Record practice | Brieft Description | High |
+| Check health measures | Brief description | High |
+| Create a training plan | Brief description | Medium |
+| Check his training plans| Brief description | Medium |
+| Create a nutritional plan | Brief description | Medium |
+| Check his nutritional plans| Brief description | Medium |
+| Communicate with the doctor | Brief description | Low |
+| Check doctor's reports | Brief description | Low |
 
 
 ### 2.5. Functional requirements
