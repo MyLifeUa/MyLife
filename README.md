@@ -308,8 +308,7 @@ In order to understand how our actors will interact with our system, first we mu
 |----------|-------------------|----------|
 | Check data analytics | Brief description | High |
 | Manage doctors | Brief description | High |
-| Manage all entities | Brief description | Medium |
-| Manage system components | Brief description | low |
+| Manage system components | Brief description | Low |
 
 
 #### 2.4.5. Mobile Application
