@@ -277,6 +277,7 @@ In order to understand how our actors will interact with our system, first we mu
 
 ![use-case-model](./assets/use-case-model.png)  
 
+<<<<<<< HEAD
 #### 2.4.2. Mobile Application
 
 | Number | Use case | Brief description | Priority |
@@ -324,6 +325,55 @@ In order to understand how our actors will interact with our system, first we mu
 | 2 | Manage doctors | Brief description | High |
 | 3 | Manage all entities | Brief description | Medium |
 | 4 | Manage system components | Brief description | low |
+=======
+#### 2.4.2. Web Application Patient
+
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check health measures | Brief description | High |
+| Create a training plan | Brief description | Medium |
+| Check his training plans| Brief description | Medium |
+| Create a nutritional plan | Brief description | Medium |
+| Check his nutritional plans| Brief description | Medium |
+| Communicate with the doctor | Brief description | Low |
+| Check doctor's reports | Brief description | Low |
+
+#### 2.4.3. Web Application Doctor
+
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check patients health measures | Brief description | High |
+| Manage patients nutritional plans | Brief description | High |
+| Manage patients training plans | Brief description | High |
+| Manage patients | Brief description | High |
+| View patients food logs | Brief description | Medium |
+| View patients training logs | Brief description | Medium |
+| Produce a report | Brief description | Low |
+| Receive urgent notifications | Brief description | Low |
+
+#### 2.4.4. Web Application Admin
+
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Check data analytics | Brief description | High |
+| Manage doctors | Brief description | High |
+| Manage system components | Brief description | Low |
+
+
+#### 2.4.5. Mobile Application
+
+| Use case | Brief description | Priority |
+|----------|-------------------|----------|
+| Insert food log (Picture or manual) | Brief description | High |
+| Record practice | Brieft Description | High |
+| Check health measures | Brief description | High |
+| Create a training plan | Brief description | Medium |
+| Check his training plans| Brief description | Medium |
+| Create a nutritional plan | Brief description | Medium |
+| Check his nutritional plans| Brief description | Medium |
+| Communicate with the doctor | Brief description | Low |
+| Check doctor's reports | Brief description | Low |
+>>>>>>> fddcf8d44c80b9048bd85ef754d0e30002d1be57
 
 
 ### 2.5. Functional requirements
