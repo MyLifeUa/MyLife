@@ -277,54 +277,53 @@ In order to understand how our actors will interact with our system, first we mu
 
 ![use-case-model](./assets/use-case-model.png)  
 
-#### 2.4.2. Web Application Patient
+#### 2.4.2. Mobile Application
 
-| Use case | Brief description | Priority |
-|----------|-------------------|----------|
-| Check health measures | Brief description | High |
-| Create a training plan | Brief description | Medium |
-| Check his training plans| Brief description | Medium |
-| Create a nutritional plan | Brief description | Medium |
-| Check his nutritional plans| Brief description | Medium |
-| Communicate with the doctor | Brief description | Low |
-| Check doctor's reports | Brief description | Low |
+| Number | Use case | Brief description | Priority |
+|--------|----------|-------------------|----------|
+| 1 | Insert food log (Picture or manual) | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our app.| High |
+| 2 | Record practice | Brieft Description | High |
+| 3 | Check health measures | Brief description | High |
+| 4 | Create a training plan | Brief description | Medium |
+| 5 | Check his training plans| Brief description | Medium |
+| 6 | Create a nutritional plan | Brief description | Medium |
+| 7 | Check his nutritional plans| Brief description | Medium |
+| 8 | Communicate with the doctor | Brief description | Low |
+| 9 | Check doctor's reports | Brief description | Low |
 
-#### 2.4.3. Web Application Doctor
+#### 2.4.3. Web Application Patient
 
-| Use case | Brief description | Priority |
-|----------|-------------------|----------|
-| Check patients health measures | Brief description | High |
-| Manage patients nutritional plans | Brief description | High |
-| Manage patients training plans | Brief description | High |
-| Manage patients | Brief description | High |
-| View patients food logs | Brief description | Medium |
-| View patients training logs | Brief description | Medium |
-| Produce a report | Brief description | Low |
-| Receive urgent notifications | Brief description | Low |
+| Number | Use case | Brief description | Priority |
+|--------|----------|-------------------|----------|
+| 1 | Check health measures | Brief description | High |
+| 2 | Create a training plan | Brief description | Medium |
+| 3 | Check his training plans| Brief description | Medium |
+| 4 | Create a nutritional plan | Brief description | Medium |
+| 5 | Check his nutritional plans| Brief description | Medium |
+| 6 | Communicate with the doctor | Brief description | Low |
+| 7 | Check doctor's reports | Brief description | Low |
 
-#### 2.4.4. Web Application Admin
+#### 2.4.4. Web Application Doctor
 
-| Use case | Brief description | Priority |
-|----------|-------------------|----------|
-| Check data analytics | Brief description | High |
-| Manage doctors | Brief description | High |
-| Manage all entities | Brief description | Medium |
-| Manage system components | Brief description | low |
+| Number | Use case | Brief description | Priority |
+|--------|----------|-------------------|----------|
+| 1 | Check patients health measures | Brief description | High |
+| 2 | Manage patients nutritional plans | Brief description | High |
+| 3 | Manage patients training plans | Brief description | High |
+| 4 | Manage patients | Brief description | High |
+| 5 | View patients food logs | Brief description | Medium |
+| 6 | View patients training logs | Brief description | Medium |
+| 7 | Produce a report | Brief description | Low |
+| 8 | Receive urgent notifications | Brief description | Low |
 
+#### 2.4.5. Web Application Admin
 
-#### 2.4.5. Mobile Application
-
-| Use case | Brief description | Priority |
-|----------|-------------------|----------|
-| Insert food log (Picture or manual) | Brief description | High |
-| Record practice | Brieft Description | High |
-| Check health measures | Brief description | High |
-| Create a training plan | Brief description | Medium |
-| Check his training plans| Brief description | Medium |
-| Create a nutritional plan | Brief description | Medium |
-| Check his nutritional plans| Brief description | Medium |
-| Communicate with the doctor | Brief description | Low |
-| Check doctor's reports | Brief description | Low |
+| Number | Use case | Brief description | Priority |
+|--------|----------|-------------------|----------|
+| 1 | Check data analytics | Brief description | High |
+| 2 | Manage doctors | Brief description | High |
+| 3 | Manage all entities | Brief description | Medium |
+| 4 | Manage system components | Brief description | low |
 
 
 ### 2.5. Functional requirements
