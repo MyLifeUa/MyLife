@@ -283,7 +283,7 @@ In order to understand how our actors will interact with our system, first we mu
 |--------|----------|-------------------|----------|
 | 1 | Insert food log (Picture or manual) | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our system. | High |
 | 2 | Record practice | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results. | High |
-| 3 | Check health measures | Brief description | High |
+| 3 | Check health measures | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. | High |
 | 4 | Create a training plan | Brief description | Medium |
 | 5 | Check his training plans| Brief description | Medium |
 | 6 | Create a nutritional plan | Brief description | Medium |
