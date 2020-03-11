@@ -322,8 +322,7 @@ In order to understand how our actors will interact with our system, first we mu
 |--------|----------|-------------------|----------|
 | 1 | Check data analytics | Brief description | High |
 | 2 | Manage doctors | Brief description | High |
-| 3 | Manage all entities | Brief description | Medium |
-| 4 | Manage system components | Brief description | low |
+| 3 | Manage system components | Brief description | Low |
 
 
 ### 2.5. Functional requirements
