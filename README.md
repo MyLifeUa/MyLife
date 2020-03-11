@@ -296,12 +296,12 @@ In order to understand how our actors will interact with our system, first we mu
 | Number | Use case | Brief description | Priority |
 |--------|----------|-------------------|----------|
 | 1 | Check health measures | Similiar to the feature in the mobile app, Francisca can check her health measures on the web application. For that, in the main dashboard of her account, she just need to choose this option and watch some important metric about heart beat rate, sleep quality, burnt calories, kilometers walked and much more. She can also check her global health measures. | High |
-| 2 | Create a training plan | Brief description | Medium |
-| 3 | Check his training plans| Brief description | Medium |
-| 4 | Create a nutritional plan | Brief description | Medium |
-| 5 | Check his nutritional plans| Brief description | Medium |
-| 6 | Communicate with the doctor | Brief description | Low |
-| 7 | Check doctor's reports | Brief description | Low |
+| 2 | Create a training plan | If Francisca wants to create a new training plan, first she needs to open the main page of the web application and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium |
+| 3 | Check his training plans | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train! | Medium |
+| 4 | Create a nutritional plan |  Similar to the creation of a training plan, Francisca can create a nutritional plan. For that, she needs to choose this option and define a set of recommended meals for a specific period. She can also see nutritional information about this meals, and edit them if necessary. | Medium |
+| 5 | Check his nutritional plans| Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan. | Medium |
+| 6 | Communicate with the doctor | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place. | Low |
+| 7 | Check doctor's reports | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions. | Low |
 
 #### 2.4.4. Web Application Doctor
 
