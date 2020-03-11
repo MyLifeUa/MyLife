@@ -295,7 +295,7 @@ In order to understand how our actors will interact with our system, first we mu
 
 | Number | Use case | Brief description | Priority |
 |--------|----------|-------------------|----------|
-| 1 | Check health measures | Brief description | High |
+| 1 | Check health measures | Similiar to the feature in the mobile app, Francisca can check her health measures on the web application. For that, in the main dashboard of her account, she just need to choose this option and watch some important metric about heart beat rate, sleep quality, burnt calories, kilometers walked and much more. She can also check her global health measures. | High |
 | 2 | Create a training plan | Brief description | Medium |
 | 3 | Check his training plans| Brief description | Medium |
 | 4 | Create a nutritional plan | Brief description | Medium |
