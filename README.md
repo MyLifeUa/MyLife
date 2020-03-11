@@ -283,13 +283,13 @@ In order to understand how our actors will interact with our system, first we mu
 |--------|----------|-------------------|----------|
 | 1 | Insert food log (Picture or manual) | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our system. | High |
 | 2 | Record practice | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results. | High |
-| 3 | Check health measures | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. | High |
+| 3 | Check health measures | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. She will also check her global health status. | High |
 | 4 | Create a training plan | If Francisca wants to create a new training plan, first she needs to open the main page of the mobile app and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium |
 | 5 | Check his training plans| With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train! | Medium |
-| 6 | Create a nutritional plan | Brief description | Medium |
-| 7 | Check his nutritional plans| Brief description | Medium |
-| 8 | Communicate with the doctor | Brief description | Low |
-| 9 | Check doctor's reports | Brief description | Low |
+| 6 | Create a nutritional plan | Similar to the creation of a training plan, Francisca can create a nutritional plan. For that, she needs to choose this option and define a set of recommended meals for a specific period. She can also see nutritional information about this meals, and edit them if necessary. | Medium |
+| 7 | Check his nutritional plans| Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan. | Medium |
+| 8 | Communicate with the doctor | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place. | Low |
+| 9 | Check doctor's reports | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions. | Low |
 
 #### 2.4.3. Web Application Patient
 
