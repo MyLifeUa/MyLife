@@ -23,10 +23,10 @@
       - [Workout Recognition and Correction](#workout-recognition-and-correction)
   - [2.3. Actors](#23-actors)
   - [2.4. Use Cases](#24-use-cases)
-    - [2.4.1. Web Application Patient [Tom1k]](#241-web-application-patient--tom1k-)
-    - [2.4.2. Web Application Doctor [Tom1k]](#242-web-application-doctor--tom1k-)
-    - [2.4.3. Web Application Admin [Mendes]](#243-web-application-admin--mendes-)
-    - [2.4.4. Mobile Application [Mendes]](#244-mobile-application--mendes-)
+    - [2.4.1. Web Application Patient](#241-web-application-patient)
+    - [2.4.2. Web Application Doctor](#242-web-application-doctor)
+    - [2.4.3. Web Application Admin](#243-web-application-admin)
+    - [2.4.4. Mobile Application](#244-mobile-application--mendes)
   - [2.5. Functional requirements](#25-functional-requirements)
   - [2.6. Non-functional requirements](#26-non-functional-requirements)
   - [2.7. System Architecture](#27-system-architecture)
@@ -282,7 +282,7 @@ In order to understand how our actors will interact with our system, first we mu
 | Number | Use case | Brief description | Priority |
 |--------|----------|-------------------|----------|
 | 1 | **Insert food log (Picture or manual)** | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our system. | High |
-| 2 | **Record practice** | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results. | High |
+| 2 | **Record practice** | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results. | Medium |
 | 3 | **Check health measures** | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. She will also check her global health status. | High |
 | 4 | **Create a training plan** | If Francisca wants to create a new training plan, first she needs to open the main page of the mobile app and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium |
 | 5 | **Check his training plans** | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train! | Medium |
