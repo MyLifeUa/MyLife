@@ -380,4 +380,6 @@ Our information system will be made of several distinct components, each one of 
 
 ### 2.8. Domain Model
 
+![domain-model](./assets/mylife-domain-model-32.png)
+
 ### 2.9. User Interaction
