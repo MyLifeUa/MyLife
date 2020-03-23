@@ -383,3 +383,5 @@ Our information system will be made of several distinct components, each one of 
 ![domain-model](./assets/mylife-domain-model-32.png)
 
 ### 2.9. User Interaction
+
+To verify our user interaction and get a feel for the overall system interaction and design, we created a mobile application [prototype](./prototype/MyLife - MobileApp.pdf)
