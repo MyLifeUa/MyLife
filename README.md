@@ -384,4 +384,4 @@ Our information system will be made of several distinct components, each one of 
 
 ### 2.9. User Interaction
 
-To verify our user interaction and get a feel for the overall system interaction and design, we created a mobile application [prototype](./prototype/MyLife - MobileApp.pdf)
+To verify our user interaction, check design and get a feel for the overall system feel, we created a mobile application [prototype](./prototype/MyLife - MobileApp.pdf)
