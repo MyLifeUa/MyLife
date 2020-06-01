@@ -3,38 +3,38 @@
 # My Life - Personal Lifestyle Monitoring System
 
 - [1. Inception Phase](#1-inception-phase)
-  * [1.1. Context](#11-context)
-  * [1.2. Problem](#12-problem)
-  * [1.3. Personas](#13-personas)
-  * [1.4. Goal](#14-goal)
-  * [1.5. Task List](#15-task-list)
-  * [1.6. Expected Results](#16-expected-results)
-  * [1.7. Key system functionalities](#17-key-system-functionalities)
-  * [1.8. Related work](#18-related-work)
-  * [1.9. Communication Plan](#19-communication-plan)
-  * [1.10. Team Roles](#110-team-roles)
-  * [1.11. Project calendar](#111-project-calendar)
+  - [1.1. Context](#11-context)
+  - [1.2. Problem](#12-problem)
+  - [1.3. Personas](#13-personas)
+  - [1.4. Goal](#14-goal)
+  - [1.5. Task List](#15-task-list)
+  - [1.6. Expected Results](#16-expected-results)
+  - [1.7. Key system functionalities](#17-key-system-functionalities)
+  - [1.8. Related work](#18-related-work)
+  - [1.9. Communication Plan](#19-communication-plan)
+  - [1.10. Team Roles](#110-team-roles)
+  - [1.11. Project calendar](#111-project-calendar)
 - [2. Elaboration Phase](#2-elaboration-phase)
-  * [2.1. Requirements gathering](#21-requirements-gathering)
-  * [2.2. Context and State of The Art (SOA)](#22-context-and-state-of-the-art--soa-)
-    + [2.2.1. Context](#221-context)
-    + [2.2.2. State of The Art and Related Work](#222-state-of-the-art-and-related-work)
+  - [2.1. Requirements gathering](#21-requirements-gathering)
+  - [2.2. Context and State of The Art (SOA)](#22-context-and-state-of-the-art--soa-)
+    - [2.2.1. Context](#221-context)
+    - [2.2.2. State of The Art and Related Work](#222-state-of-the-art-and-related-work)
       - [Food Recognition and Classification](#food-recognition-and-classification)
       - [Workout Recognition and Correction](#workout-recognition-and-correction)
-  * [2.3. Actors](#23-actors)
-  * [2.4. Use Cases](#24-use-cases)
-    + [2.4.1. Use Cases model](#241-use-cases-model)
-    + [2.4.2. Mobile Application](#242-mobile-application)
-    + [2.4.3. Web Application Patient](#243-web-application-patient)
-    + [2.4.4. Web Application Doctor](#244-web-application-doctor)
-    + [2.4.5. Web Application Admin](#245-web-application-admin)
-  * [2.5. Functional requirements](#25-functional-requirements)
-  * [2.6. Non-functional requirements](#26-non-functional-requirements)
-  * [2.7. System Architecture](#27-system-architecture)
-    + [2.7.1. Technological Architecture Diagram](#271-technological-architecture-diagram)
-    + [2.7.2. Deployment Diagram](#272-deployment-diagram)
-  * [2.8. Domain Model](#28-domain-model)
-  * [2.9. User Interaction](#29-user-interaction)
+  - [2.3. Actors](#23-actors)
+  - [2.4. Use Cases](#24-use-cases)
+    - [2.4.1. Use Cases model](#241-use-cases-model)
+    - [2.4.2. Mobile Application](#242-mobile-application)
+    - [2.4.3. Web Application Patient](#243-web-application-patient)
+    - [2.4.4. Web Application Doctor](#244-web-application-doctor)
+    - [2.4.5. Web Application Admin](#245-web-application-admin)
+  - [2.5. Functional requirements](#25-functional-requirements)
+  - [2.6. Non-functional requirements](#26-non-functional-requirements)
+  - [2.7. System Architecture](#27-system-architecture)
+    - [2.7.1. Technological Architecture Diagram](#271-technological-architecture-diagram)
+    - [2.7.2. Deployment Diagram](#272-deployment-diagram)
+  - [2.8. Domain Model](#28-domain-model)
+  - [2.9. User Interaction](#29-user-interaction)
 
 ## 1. Inception Phase
 
@@ -187,7 +187,6 @@ For a more detailed explanation about this calendar, [click here](./calendar/REA
 
 ### 2.1. Requirements gathering
 
-
 To fully address the problems in real life we need to solve, we should conduct several **studies**, **analysis** and **interviews** to get an idea of the actual usage our platform aims to have.
 
 With that objective in mind, our process of requirements gathering can be divided into **3 distinct parts**.
@@ -272,56 +271,55 @@ To sum up, the main actors of our system are described in the following list:
 
 ### 2.4. Use Cases
 
-#### 2.4.1. Use Cases model  
+#### 2.4.1. Use Cases model
 
 In order to understand how our actors will interact with our system, first we must define what are the use cases related to those interactions. The following diagram shows what interfaces our actors will use:
 
-![use-case-model](./assets/use-case-model.png)  
+![use-case-model](./assets/use-case-model.png)
 
 #### 2.4.2. Mobile Application
 
-| Number | Use case | Brief description | Priority |
-|--------|----------|-------------------|----------|
-| 1 | **Insert food log (Picture or manual)** | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our system. | High |
-| 2 | **Record practice** | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results. | Medium |
-| 3 | **Check health measures** | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. She will also check her global health status. | High |
-| 4 | **Create a training plan** | If Francisca wants to create a new training plan, first she needs to open the main page of the mobile app and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium |
-| 5 | **Check his training plans** | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train! | Medium |
-| 6 | **Set nutrition goals** | Francisca can create daily nutritional goals for her to achieve. For that, she needs to choose this option and define athe correct metrics she is trying to achieve daily. | Medium |
-| 7 | **Check his nutritional plans** | Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan. | Medium |
-| 8 | **Communicate with the doctor** | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place. | Low |
-| 9 | **Check doctor's reports** | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions. | Low |
+| Number | Use case                                | Brief description                                                                                                                                                                                                                                                                                                                                                                                                      | Priority |
+| ------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1      | **Insert food log (Picture or manual)** | Francisca wants to insert a new food log. First, she creates a new one. The food log must have a title, a little description, a timestamp and a type of meal (breakfast, lunch or dinner). Then, Francisca must take a picture of the food she wants to eat and save it in the food log. After some time of processing, she will see the nutritional information about the food and the recommendations of our system. | High     |
+| 2      | **Record practice**                     | Francisca wants to start a new training session. For that, she checks her daily training and starts it. For each recommended exercise, Francisca can start recording it, placing the smartphone on top of a support. After she finishes each exercise, she saves the video and wait for the results.                                                                                                                   | Medium   |
+| 3      | **Check health measures**               | Francisca wants to check her health measures. In the main page of the mobile application, she can click on the respective button and watch some nutrional and physical data like burnt calories, heart beat rate, sleep quality and much more. She will also check her global health status.                                                                                                                           | High     |
+| 4      | **Create a training plan**              | If Francisca wants to create a new training plan, first she needs to open the main page of the mobile app and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system.                                       | Medium   |
+| 5      | **Check his training plans**            | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train!                                                                                                                                                                                                                                      | Medium   |
+| 6      | **Set nutrition goals**                 | Francisca can create daily nutritional goals for her to achieve. For that, she needs to choose this option and define athe correct metrics she is trying to achieve daily.                                                                                                                                                                                                                                             | Medium   |
+| 7      | **Check his nutritional plans**         | Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan.                                                                                                                                                                                                                                    | Medium   |
+| 8      | **Communicate with the doctor**         | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place.                                                                                                                                                                                                                                                                     | Low      |
+| 9      | **Check doctor's reports**              | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions.                                                                                                                                                                                                                                                           | Low      |
 
 #### 2.4.3. Web Application Patient
 
-| Number | Use case | Brief description | Priority |
-|--------|----------|-------------------|----------|
-| 10 | **Check health measures** | Similiar to the feature in the mobile app, Francisca can check her health measures on the web application. For that, in the main dashboard of her account, she just need to choose this option and watch some important metric about heart beat rate, sleep quality, burnt calories, kilometers walked and much more. She can also check her global health measures. | High |
-| 11 | **Create a training plan** | If Francisca wants to create a new training plan, first she needs to open the main page of the web application and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium |
-| 12 | **Check his training plans** | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train! | Medium |
-| 13 | **Set nutrition goals** |  Similar to the creation of a training plan, Francisca can create a nutritional plan. For that, she needs to choose this option and define a set of recommended meals for a specific period. She can also see nutritional information about this meals, and edit them if necessary. | Medium |
-| 14 | **Check his nutritional plans** | Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan. | Medium |
-| 15 | **Communicate with the doctor** | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place. In extreme cases, she can send an urgent notification to her doctor. | Low |
-| 16 | **Check doctor's reports** | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions. | Low |
+| Number | Use case                        | Brief description                                                                                                                                                                                                                                                                                                                                                                     | Priority |
+| ------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 10     | **Check health measures**       | Similiar to the feature in the mobile app, Francisca can check her health measures on the web application. For that, in the main dashboard of her account, she just need to choose this option and watch some important metric about heart beat rate, sleep quality, burnt calories, kilometers walked and much more. She can also check her global health measures.                  | High     |
+| 11     | **Create a training plan**      | If Francisca wants to create a new training plan, first she needs to open the main page of the web application and click on the respective button. In order to create this new training plan, Francisca must choose in what days of the week she wants to train and choose which types of exercises she is interested. She can also choose the recommend training plan by our system. | Medium   |
+| 12     | **Check his training plans**    | With our application, Francisca can check his past, current and future training plans, and edit or delete them if needed. She will also receive an alert when it's time to train!                                                                                                                                                                                                     | Medium   |
+| 13     | **Set nutrition goals**         | Similar to the creation of a training plan, Francisca can create a nutritional plan. For that, she needs to choose this option and define a set of recommended meals for a specific period. She can also see nutritional information about this meals, and edit them if necessary.                                                                                                    | Medium   |
+| 14     | **Check his nutritional plans** | Francisca can see all her nutritional plans history, and also confirm what she will eat for the next days. If needed, she can also edit or remove a meal from her nutritional plan.                                                                                                                                                                                                   | Medium   |
+| 15     | **Communicate with the doctor** | Francisca can communicate with her doctor through chating. She can also schedule appointments and check when her next appointment will take place. In extreme cases, she can send an urgent notification to her doctor.                                                                                                                                                               | Low      |
+| 16     | **Check doctor's reports**      | After an appointment, Francisca can watch or download the doctor's report, and comment it. She can also see past reports, and compare them between sessions.                                                                                                                                                                                                                          | Low      |
 
 #### 2.4.4. Web Application Doctor
 
-| Number | Use case | Brief description | Priority |
-|--------|----------|-------------------|----------|
-| 17 | **Check patients health measures** | When doctor António Silva wants to check the health status of his patients, first he need to go to the respective area in the dasboard. Here, he can see the list of his patients and choose one of them. After this step, our application will show health measures about the selected patient and contact him if needed. | High |
-| 18 | **Manage patients nutritional plans** | For each patient, doctor António Silva can view and manage his nutritional plans, or simply make recommendations. He can edit specific details like calories or ingredients of each meal. He can also see all food logs inserted by the patient. | High |
-| 19 | **Manage patients training plans** | Similar to the previous use case, doctor António Silva can view and manage his patients training plans, making recommendations about specific exercises. He can also comment some health measures and past training plans. | High |
-| 20 | **Manage patients** | Maybe this is the most important use case of doctor António Silva. In order to use all the features of our system, António must add his patients to the platform, in order to monitorize them. He can also schedule appointments with his patients and view them on a calendar. | High |
-| 21 | **Produce a report** | After an appointment, António can produce a report through a form in the dashboard. After filling all the fields, he must save the report, that will be accessible for the respective patient. He can also generate a pdf to be downloaded. | Low |
-| 22 | **Receive urgent notifications** | António can receive urgent notifications sended directly from his patients or processed by our information system. He can also receive this alert on his email. | Low |
+| Number | Use case                              | Brief description                                                                                                                                                                                                                                                                                                          | Priority |
+| ------ | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 17     | **Check patients health measures**    | When doctor António Silva wants to check the health status of his patients, first he need to go to the respective area in the dasboard. Here, he can see the list of his patients and choose one of them. After this step, our application will show health measures about the selected patient and contact him if needed. | High     |
+| 18     | **Manage patients nutritional plans** | For each patient, doctor António Silva can view and manage his nutritional plans, or simply make recommendations. He can edit specific details like calories or ingredients of each meal. He can also see all food logs inserted by the patient.                                                                           | High     |
+| 19     | **Manage patients training plans**    | Similar to the previous use case, doctor António Silva can view and manage his patients training plans, making recommendations about specific exercises. He can also comment some health measures and past training plans.                                                                                                 | High     |
+| 20     | **Manage patients**                   | Maybe this is the most important use case of doctor António Silva. In order to use all the features of our system, António must add his patients to the platform, in order to monitorize them. He can also schedule appointments with his patients and view them on a calendar.                                            | High     |
+| 21     | **Produce a report**                  | After an appointment, António can produce a report through a form in the dashboard. After filling all the fields, he must save the report, that will be accessible for the respective patient. He can also generate a pdf to be downloaded.                                                                                | Low      |
+| 22     | **Receive urgent notifications**      | António can receive urgent notifications sended directly from his patients or processed by our information system. He can also receive this alert on his email.                                                                                                                                                            | Low      |
 
 #### 2.4.5. Web Application Admin
 
-| Number | Use case | Brief description | Priority |
-|--------|----------|-------------------|----------|
-| 23 | **Check data analytics** | The administrator of a certain hospital can check in the dashboard some analytics about doctors and their patients | High |
-| 24 | **Manage doctors** | The administrator can see a list of doctors in their hospital, and edit them if necessary. The administrador can also add or remove a doctor. | High |
-
+| Number | Use case                 | Brief description                                                                                                                             | Priority |
+| ------ | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 23     | **Check data analytics** | The administrator of a certain hospital can check in the dashboard some analytics about doctors and their patients                            | High     |
+| 24     | **Manage doctors**       | The administrator can see a list of doctors in their hospital, and edit them if necessary. The administrador can also add or remove a doctor. | High     |
 
 ### 2.5. Functional requirements
 
@@ -350,7 +348,7 @@ Concerning the use cases enumerated above:
 4. Communication between patient data a doctor, through database and business logic.
 5. Interface for a doctor to search user in the system and add them to his patient list.
 6. Admin page to view analytics (possibly use Django admin), add users and connections between them.
-7. Photograph food to get data on the mobile app. 
+7. Photograph food to get data on the mobile app.
 8. Insert food data on web/mobile app.
 9. Record exercise and measure if it has been done correctly.
 
@@ -380,8 +378,8 @@ Our information system will be made of several distinct components, each one of 
 
 ### 2.8. Domain Model
 
-![domain-model](./assets/mylife-domain-model-32.png)
+![domain-model](./assets/domain-model.png)
 
 ### 2.9. User Interaction
 
-To verify our user interaction, check design and get a feel for the overall system feel, we created a mobile application [prototype](./prototype/MyLife - MobileApp.pdf)
+To verify our user interaction, check design and get a feel for the overall system feel, we created a mobile application [prototype](./prototype/MyLife - MobileApp.pdf).
