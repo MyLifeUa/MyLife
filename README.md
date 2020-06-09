@@ -339,9 +339,7 @@ Concerning the use cases enumerated above:
 
 ### 2.6. Non-functional requirements
 
-We want our system to assure performance, availability, recoverability, maintainability, security, data integrity, usability, or interoperability.
-
-Therefore, our goal is to make use of industry standards in **database systems**, **container orchestration**, **distribution**, **replication**, etc.
+We want our system to assure performance, availability, recoverability, maintainability, usability or interoperability.
 
 The use of standard and known technologies will help us maintain the quality of our product.
 
